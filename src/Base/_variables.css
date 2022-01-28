@@ -1,0 +1,129 @@
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Variables                ║ Base                                                                                    ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+*/
+:root {
+	/* Radius */
+	--radius-primary: 10px;
+	--radius-secondary: 12px;
+	--radius-tertiary: 5px;
+
+	/* Layout */
+	--layout-margin: 10px;
+	--layout-margin-top: 10px;
+	--layout-margin-left: 10px;
+	--layout-margin-right: 10px;
+	--layout-margin-bottom: 10px;
+	--layout-width-channel: 240px;
+	--layout-width-members: 240px;
+	--layout-inner-primary: 8px;
+	--layout-inner-secondary: 12px;
+	--layout-inner-tertiary: 16px;
+	--layout-height-header: 44px;
+
+	/* Visibility */
+	--border-width: 1.0px;
+	--border: 1px solid var(--background-modifier-accent);
+
+
+	/* Width */
+	--channel-width: 240px;
+	--members-width: 240px;
+	--profile-width: 320px;
+
+	/* Align */
+	--text-align: justify;
+	/* This changes the text align. */
+	/* Wallpaper */
+	--wallpaper: url("");
+	--background: var(--background-primary);
+}
+
+:root {
+	--layout: calc(var(--layout-margin) / 2);
+	--layout-icon-spacing: 8px;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Variables                ║ Colors                                                                                  ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+*/
+:root {
+	--accent-color: #5865f2;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Variables                ║ Lightmode                                                                               ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+*/
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Variables                ║ Darkmode                                                                                ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+*/
+.theme-dark {
+	--header-primary: #fff;
+	--header-secondary: #b9bbbe;
+	--text-normal: #dcddde;
+	--text-muted: #72767d;
+	--text-link: hsl(197, calc(var(--saturation-factor, 1)*100%), 47.8%);
+	--text-link-low-saturation: hsl(197, calc(var(--saturation-factor, 1)*100%), 52.9%);
+	--text-positive: hsl(139, calc(var(--saturation-factor, 1)*66.8%), 58.6%);
+	--text-warning: hsl(38, calc(var(--saturation-factor, 1)*95.7%), 54.1%);
+	--text-danger: hsl(359, calc(var(--saturation-factor, 1)*82.6%), 59.4%);
+	--text-brand: hsl(235, calc(var(--saturation-factor, 1)*86.1%), 77.5%);
+	--interactive-normal: #b9bbbe;
+	--interactive-hover: #dcddde;
+	--interactive-active: #fff;
+	--interactive-muted: #4f545c;
+	--background-primary: #36393f;
+	--background-secondary: #2f3136;
+	--background-secondary-alt: #292b2f;
+	--background-tertiary: #202225;
+	--background-accent: #4f545c;
+	--background-floating: #18191c;
+	--background-nested-floating: #2f3136;
+	--background-mobile-primary: #36393f;
+	--background-mobile-secondary: #2f3136;
+	--background-modifier-hover: #4f545c29;
+	--background-modifier-active: #4f545c3d;
+	--background-modifier-selected: #4f545c52;
+	--background-modifier-accent: #ffffff0f;
+	--info-positive-text: #fff;
+	--info-warning-text: #fff;
+	--info-danger-text: #fff;
+	--info-help-background: hsla(197, calc(var(--saturation-factor, 1)*100%), 47.8%, 0.1);
+	--info-help-foreground: hsl(197, calc(var(--saturation-factor, 1)*100%), 47.8%);
+	--info-help-text: #fff;
+	--status-warning-text: #000;
+	--scrollbar-thin-thumb: #202225;
+	--scrollbar-thin-track: #0000;
+	--scrollbar-auto-thumb: #202225;
+	--scrollbar-auto-track: hsl(210, calc(var(--saturation-factor, 1)*9.8%), 20%);
+	--scrollbar-auto-scrollbar-color-thumb: #202225;
+	--scrollbar-auto-scrollbar-color-track: #2f3136;
+	--elevation-stroke: 0 0 0 1px #04040526;
+	--elevation-low: 0 1px 0 #04040533, 0 1.5px 0 #0606070d, 0 2px 0 #0404050d;
+	--elevation-medium: 0 4px 4px #00000029;
+	--elevation-high: 0 8px 16px #0000003d;
+	--logo-primary: #fff;
+	--control-brand-foreground: hsl(235, calc(var(--saturation-factor, 1)*86.1%), 77.5%);
+	--control-brand-foreground-new: hsl(235, calc(var(--saturation-factor, 1)*86.1%), 77.5%);
+	--background-mentioned: hsla(38, calc(var(--saturation-factor, 1)*95.7%), 54.1%, 0.1);
+	--background-mentioned-hover: hsla(38, calc(var(--saturation-factor, 1)*95.7%), 54.1%, 0.08);
+	--background-message-hover: #04040512;
+	--channels-default: #8e9297;
+	--guild-header-text-shadow: 0 1px 1px #0006;
+	--channeltextarea-background: #40444b;
+	--activity-card-background: #202225;
+	--textbox-markdown-syntax: #8e9297;
+	--deprecated-card-bg: #20222599;
+	--deprecated-card-editable-bg: #2022254d;
+	--deprecated-store-bg: #36393f;
+	--deprecated-quickswitcher-input-background: #72767d;
+	--deprecated-quickswitcher-input-placeholder: #ffffff4d;
+	--deprecated-text-input-bg: #0000001a;
+	--deprecated-text-input-border: #0000004d;
+	--deprecated-text-input-border-hover: #040405;
+	--deprecated-text-input-border-disabled: #202225;
+	--deprecated-text-input-prefix: #dcddde;
+}

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: dash2space;
+    unicode-range: U+002D;
+    src: url(https://smarty6788.github.io/Dash2Space/src/font/dash2space.ttf) format('truetype'), url(https://smarty6788.github.io/Dash2Space/font/dash2space.woff2) format('woff2')
+}
+
+#app-mount [data-list-item-id*="channels___upcoming-events-"]>div.name-28HaxV {
+    font-size: 14px;
+    font-family: dash2space, var(--font-primary);
+    text-transform: capitalize
+}
+
+.autocompleteRowVertical-EA9dCg[data-list-item-id*=channel-autocomplete] .autocompleteRowContentPrimary-1kUW9H .colorInteractiveActive-30E9n8,
+.content-2a4AW9 .emptyChannelIcon-1YdEz2~.size32-5yOQel,
+.quickswitcher-pKcM9U .result-u66Ywh .match-20K5f5,
+.sidebar-1tnWFu .mainContent-20q_Hp[href] .channelName-3KPsGw,
+.title-31SJ6t .iconWrapper-2awDjA+.title-17SveM,
+.wrapper-1ZcZW-[class="wrapper-1ZcZW- mention interactive"] {
+    font-family: dash2space, var(--font-primary);
+    text-transform: capitalize
+}

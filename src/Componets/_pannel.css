@@ -1,0 +1,230 @@
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Panel                    ║ Profile                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+*/
+/* Grid */
+.container-YkUktl {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-template-rows: 1fr 1fr;
+	height: 120px;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Avatar */
+.container-YkUktl .avatarWrapper-1B9FTW {
+	background: var(--background-primary);
+	border-radius: var(--radius-secondary) 0px 0px var(--radius-secondary);
+	margin: 12px 0px 0px 12px;
+	padding: var(--layout-inner-primary) var(--layout-inner-primary) var(--layout-inner-primary) var(--layout-inner-primary);
+	grid-column: 1;
+	height: 34px;
+}
+
+/* Name */
+.container-YkUktl .nameTag-sc-gpq {
+	background: var(--background-primary);
+	border-radius: 0px var(--radius-secondary) var(--radius-secondary) 0px;
+	margin: 12px 12px 0px 0px;
+	padding: var(--layout-inner-primary) var(--layout-inner-primary) var(--layout-inner-primary) var(--layout-inner-primary);
+	grid-column: 2;
+	height: 34px;
+}
+
+/* Button Area */
+.container-YkUktl .directionRow-2Iu2A9 {
+	background: transparent;
+	border-radius: var(--radius-secondary);
+	margin: 12px 12px 12px 12px;
+	grid-column: 1 / -1;
+
+	grid-gap: 8px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+}
+
+/* Button */
+.container-YkUktl .directionRow-2Iu2A9 .button-12Fmur {
+	background: var(--background-primary);
+	border-radius: var(--radius-secondary);
+	width: 100%;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Panel                    ║ Voice                                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+*/
+/* Grid */
+.container-1zzFcN .horizontal-112GEH > .flex-2S1XBF {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+	grid-gap: var(--layout-inner-primary);
+	width: 100%;
+}
+
+/* Background */
+.container-1zzFcN {
+	margin: 12px 12px 0px 12px;
+	padding: 0px;
+	border: none;
+}
+
+/* Spacing */
+.container-1zzFcN .horizontal-112GEH > .flex-2S1XBF,
+.horizontal-112GEH > .flexChild-3PzYmX {
+	margin-left: 0px;
+}
+
+/* Flex */
+.container-1zzFcN .connection-3k9QeF {
+	flex-direction: column;
+}
+
+/* Info */
+.container-1zzFcN .inner-llGtyq {
+	background: var(--background-primary);
+	border-radius: var(--radius-secondary);
+	width: 100%;
+	min-height: 34px;
+	padding: var(--layout-inner-primary) 0px var(--layout-inner-primary) 0px;
+	margin: 0px 0px 12px 0px;
+}
+
+/* RTC Connection Status */
+.container-1zzFcN .rtcConnectionStatus-c5A6Av {
+	padding-bottom: 4px;
+	margin-left: 8px;
+}
+
+/* Subtext */
+.container-1zzFcN .subtext-2HDqJ7 {
+	margin-left: 8px;
+}
+
+/* Buttons */
+.container-1zzFcN .button-f2h6uQ,
+.container-1zzFcN .button-12Fmur {
+	background: var(--background-primary);
+	border-radius: var(--radius-secondary);
+	width: 100% !important;
+}
+
+/* Disabled Buttons */
+.button-1EGGcP.buttonColor-3bP3fX.fauxDisabled-8w0hCZ,
+.button-1EGGcP .buttonColor-3bP3fX.fauxDisabled-8w0hCZ,
+.button-1EGGcP.buttonColor-3bP3fX:disabled,
+.button-1EGGcP,
+.buttonColor-3bP3fX:disabled {
+	background: var(--background-tertiary);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Panel                    ║ Spotify                                                                                 ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+*/
+.powercord-spotify {
+	border-radius: var(--radius-secondary);
+	padding-bottom: 0px;
+	display: flex;
+	flex-direction: column;
+	height: 110px;
+}
+
+.spotify-extra-controls {
+	visibility: visible;
+	height: 100% !important;
+	opacity: 1;
+	display: none !important;
+}
+
+.spotify-seek {
+	display: none !important;
+}
+
+.powercord-spotify .directionRow-2Iu2A9 {
+	margin: 0px 12px 0px 12px;
+}
+
+.powercord-spotify .horizontal-112GEH {
+	margin-top: 0px !important;
+}
+
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Panel                    ║ Activity                                                                                ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+*/
+.body-1FrnJD {
+	flex-direction: column;
+	margin: 12px 12px 0px 12px;
+}
+
+.activityPanel-9icbyU {
+	padding: 0px;
+	border: none;
+}
+
+/* Activity */
+.activityPanel-9icbyU .gameWrapper-2TFy7F {
+	background: var(--background-primary);
+	border-radius: var(--radius-secondary);
+	margin: 0px 0px 12px 0px;
+	padding: var(--layout-inner-primary) 0px var(--layout-inner-primary) 0px;
+	width: 100%;
+}
+
+/* Icon */
+.gameIconWrapper-zXQ03M {
+	padding: 0px var(--layout-inner-primary) 0px 8px;
+}
+
+.gameIcon-1mDo1J {
+	border-radius: 90%;
+}
+
+/* Buttons */
+.activityPanel-9icbyU .actions-zk2vB_ {
+	background: var(--background-primary);
+	border-radius: var(--radius-secondary);
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+}
+
+.activityPanel-9icbyU .disabledButtonWrapper-2Oz3aY {
+	width: 100%;
+}
+
+.activityPanel-9icbyU .button-12Fmur {
+	width: 100%;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Panel                    ║ Order                                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+*/
+/* Order */
+.panels-3wFtMD {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Voice */
+.wrapper-3Hk9OB {
+	order: 1;
+}
+
+/* Activity */
+.activityPanel-9icbyU {
+	order: 2;
+}
+
+/* Spotify */
+.powercord-spotify {
+	order: 3;
+}
+
+/* Profile */
+.container-YkUktl {
+	order: 4;
+}
