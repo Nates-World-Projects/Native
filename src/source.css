@@ -56,50 +56,49 @@
 /* ║ ⚠️ Do not comment out these lines! By disabling the theme can not work correctly.                         ║ */
 /* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-@import "https://Nates-World-Projects.github.io/Native/src/Base/_layout.css";
+@import url("https://nates-world-projects.github.io/Native/src/Base/_layout.css");
 /* ⚠️ (Warning!! Do not disable it!) */
-@import "https://Nates-World-Projects.github.io/Native/src/Base/_notice.css";
+@import url("https://nates-world-projects.github.io/Native/src/Base/_notice.css");
 /* ⚠️ (Warning!! Do not disable it!) */
-@import "https://Nates-World-Projects.github.io/Native/src/Base/_scrollbars.css";
+@import url("https://nates-world-projects.github.io/Native/src/Base/_scrollbars.css");
 /* ⚠️ (Warning!! Do not disable it!) */
-@import "https://Nates-World-Projects.github.io/Native/src/Base/_variables.css";
+@import url("https://nates-world-projects.github.io/Native/src/Base/_variables.css");
 /* ⚠️ (Warning!! Do not disable it!) */
-@import "https://Nates-World-Projects.github.io/Native/src/Base/_wallpaper.css";
+@import url("https://nates-world-projects.github.io/Native/src/Base/_wallpaper.css");
 /* ⚠️ (Warning!! Do not disable it!) */
-@import url("https://Nates-World-Projects.github.io/Native/src/Componets/_channels.css");
-@import url("https://Nates-World-Projects.github.io/Native/src/Componets/_content.css");
-@import url("https://Nates-World-Projects.github.io/Native/src/Componets/_members.css");
-@import url("https://Nates-World-Projects.github.io/Native/src/Componets/_pannel.css");
-@import url("https://Nates-World-Projects.github.io/Native/src/Popouts/_calendar.css");
-@import url("https://Nates-World-Projects.github.io/Native/src/Popouts/_emoji-picker.css");
-/* @import url("https://Nates-World-Projects.github.io/Native/src/Popouts/_status-picker.css"); */
-
+@import url("https://nates-world-projects.github.io/Native/src/Componets/_channels.css");
+@import url("https://nates-world-projects.github.io/Native/src/Componets/_content.css");
+@import url("https://nates-world-projects.github.io/Native/src/Componets/_members.css");
+@import url("https://nates-world-projects.github.io/Native/src/Componets/_pannel.css");
+@import url("https://nates-world-projects.github.io/Native/src/Popouts/_calendar.css");
+@import url("https://nates-world-projects.github.io/Native/src/Popouts/_emoji-picker.css");
+/* @import url("https://nates-world-projects.github.io/Native/src/Popouts/_status-picker.css"); */
 
 /* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║                                                  Addons                                                   ║ */
 /* ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
 /* ║ To disable certain things, you can comment out the lines. Use "/* " in front.                             ║ */
 /* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
-@import url("https://Nates-World-Projects.github.io/Native/Modules/Addons/Emoji-Replace/joypixels.css");
-@import url("https://Nates-World-Projects.github.io/Native/Modules/Addons/contextmenu-icons.css");
-@import url("https://Nates-World-Projects.github.io/Native/Modules/Addons/dash2space.css");
-@import url("https://Nates-World-Projects.github.io/Native/Modules/Addons/discolored.css");
-@import url("https://Nates-World-Projects.github.io/Native/Modules/Addons/friends-grid.css");
-@import url("https://Nates-World-Projects.github.io/Native/Modules/Addons/settings-icons.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/Emoji-Replace/joypixels.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/contextmenu-icons.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/dash2space.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/discolored.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/friends-grid.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/settings-icons.css");
 
 /* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║                                                Animations                                                 ║ */
 /* ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
 /* ║ To disable certain things, you can comment out the lines. Use "/* " in front.                             ║ */
 /* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
-@import url("https://Nates-World-Projects.github.io/Native/Modules/Animations/hide-pannels.css");
-@import url("https://Nates-World-Projects.github.io/Native/Modules/Animations/upload.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Animations/hide-pannels.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Animations/upload.css");
 
 /* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║                                                Remove                                                     ║ */
 /* ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
 /* ║ To disable certain things, you can comment out the lines. Use "/* " in front.                             ║ */
 /* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
-@import url("https://Nates-World-Projects.github.io/Native/Modules/Remove/no-gif.css");
-@import url("https://Nates-World-Projects.github.io/Native/Modules/Remove/no-sticker.css");
-@import url("https://Nates-World-Projects.github.io/Native/Modules/Remove/no-help.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Remove/no-gif.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Remove/no-sticker.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Remove/no-help.css");
