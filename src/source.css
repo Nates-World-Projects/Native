@@ -56,22 +56,22 @@
 /* ║ ⚠️ Do not comment out these lines! By disabling the theme can not work correctly.                         ║ */
 /* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-@import url("https://nates-world-projects.github.io/Native/src/Base/_layout.css");
+@import url("https://nates-world-projects.github.io/Native/src/Base/layout.css");
 /* ⚠️ (Warning!! Do not disable it!) */
-@import url("https://nates-world-projects.github.io/Native/src/Base/_notice.css");
+@import url("https://nates-world-projects.github.io/Native/src/Base/notice.css");
 /* ⚠️ (Warning!! Do not disable it!) */
-@import url("https://nates-world-projects.github.io/Native/src/Base/_scrollbars.css");
+@import url("https://nates-world-projects.github.io/Native/src/Base/scrollbars.css");
 /* ⚠️ (Warning!! Do not disable it!) */
-@import url("https://nates-world-projects.github.io/Native/src/Base/_variables.css");
+@import url("https://nates-world-projects.github.io/Native/src/Base/variables.css");
 /* ⚠️ (Warning!! Do not disable it!) */
-@import url("https://nates-world-projects.github.io/Native/src/Base/_wallpaper.css");
+@import url("https://nates-world-projects.github.io/Native/src/Base/wallpaper.css");
 /* ⚠️ (Warning!! Do not disable it!) */
-@import url("https://nates-world-projects.github.io/Native/src/Componets/_channels.css");
-@import url("https://nates-world-projects.github.io/Native/src/Componets/_content.css");
-@import url("https://nates-world-projects.github.io/Native/src/Componets/_members.css");
-@import url("https://nates-world-projects.github.io/Native/src/Componets/_pannel.css");
-@import url("https://nates-world-projects.github.io/Native/src/Popouts/_calendar.css");
-@import url("https://nates-world-projects.github.io/Native/src/Popouts/_emoji-picker.css");
+@import url("https://nates-world-projects.github.io/Native/src/Componets/channels.css");
+@import url("https://nates-world-projects.github.io/Native/src/Componets/content.css");
+@import url("https://nates-world-projects.github.io/Native/src/Componets/members.css");
+@import url("https://nates-world-projects.github.io/Native/src/Componets/pannel.css");
+@import url("https://nates-world-projects.github.io/Native/src/Popouts/calendar.css");
+@import url("https://nates-world-projects.github.io/Native/src/Popouts/emoji-picker.css");
 /* @import url("https://nates-world-projects.github.io/Native/src/Popouts/_status-picker.css"); */
 
 /* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
