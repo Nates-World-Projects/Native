@@ -59,3 +59,34 @@
     z-index: 2;
     transition: none;
 }
+
+/* Banner */
+.container-1NXEtd[aria-label*="Nate's World | Dev"] .header-3OsQeK::before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/photos/purple-space-stars-picture-id157639696?b=1&k=20&m=157639696&s=170667a&w=0&h=5Vh0cQzZE0tVKF8SWob83bAHfpPoc6L5YjXxjxdyOTw=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: var(--radius-primary);
+    opacity: 1.0;
+}
+
+/* Spacing */
+.container-1NXEtd[aria-label*="Nate's World | Dev"] .header-3OsQeK {
+    height: 135px !important;
+    padding-bottom: 90px;
+    background: transparent;
+}
+
+/* Info Hide (Normal)*/
+.container-1NXEtd[aria-label*="Nate's World | Dev"] .guildIconContainer-2FW_iA,
+.container-1NXEtd[aria-label*="Nate's World | Dev"] .name-3Uvkvr,
+.container-1NXEtd[aria-label*="Nate's World | Dev"] .button-2BMPJJ {
+    z-index: 2;
+    transition: none;
+}
