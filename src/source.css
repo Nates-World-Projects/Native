@@ -113,7 +113,8 @@
 /* ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
 /* ║ To disable certain things, you can comment out the lines. Use "/* " in front.                             ║ */
 /* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
-@import url("https://nates-world-projects.github.io/Native/Modules/Addons/Emoji-Replace/joypixels.css");
+
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/Emoji-Replace/joypixels.css"); */
 /* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/avatar-shapes.css"); */
 /* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/blur.css"); */
 /* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/button-icons.css"); */
