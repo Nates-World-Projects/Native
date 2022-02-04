@@ -1,0 +1,108 @@
+/* Colored Links */
+
+/* Discord */
+[href^="https://discord.com/"],
+[href^="https://discord.gg/"],
+[href*="discord.com/channels/"],
+[href^="https://dis.gd/"],
+[href^="https://discordapp.com/"],
+[href^="https://cdn.discord.com/"],
+[href^="https://cdn.discordapp.com/"],
+[href^="https://media.discordapp.net/attachments/"],
+[href^="https://hawks.discordapp.com/"],
+[href^="https://hawks.discord.com/"] {
+    color: #5865f2 !important;
+    font-weight: 700;
+}
+
+[href*="discord.com/channels/"]::before {
+    content: 'Jump to Message : ';
+    font-size: 16px;
+    font-weight: 700;
+    color: #5865F2;
+}
+
+
+/* Aliucord */
+[href^="http://aliucord.com/"] {
+    color: #83CC56;
+    font-weight: 700;
+}
+
+/* BetterDiscord */
+[href^="https://betterdiscord.app/"] {
+    color: #3A71C1;
+    font-weight: 700;
+}
+
+/* Powercord */
+[href^="https://powercord.dev/"] {
+    color: #7289DA;
+    font-weight: 700;
+}
+
+/* Goosemod */
+[href^="https://goosemod.com/"] {
+    color: #292D2E;
+    font-weight: 700;
+}
+
+
+/* Vizality */
+[href^="https://vizality.com/"] {
+    color: #121421;
+    font-weight: 700;
+}
+
+/* Guilded */
+[href^="https://www.guilded.gg/"] {
+    color: #BAA31C;
+    font-weight: 700;
+}
+
+/* Spotify */
+[href*="spotify.com"] {
+    color: rgb(19, 185, 4) !important;
+    font-weight: 700;
+}
+
+/* Youtube */
+[href*="youtu.be"],
+[href*="youtube.com"] {
+    color: #C4302B !important;
+    font-weight: 700;
+}
+
+/* Twitch */
+[href*="twitch.tv"] {
+    color: #B700FF !important;
+    font-weight: 700;
+}
+
+/* Facebook */
+
+/* Twitter */
+[href*="twitter.com/"] {
+    color: #00ACEE !important;
+    font-weight: 700;
+}
+
+/* Instagram */
+[href*="instagram.com/"] {
+    background: -webkit-linear-gradient(80deg, rgb(255, 238, 0), rgb(255, 157, 11), #B700FF);
+    --webkit-background-clip: text;
+    --webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+/* Reddit */
+[href*="reddit.com"] {
+    color: #FF4500 !important;
+    font-weight: 700;
+}
+
+/* Github */
+[href*="github.com"] {
+    color: #00F0A8 !important;
+    font-weight: 700;
+}
