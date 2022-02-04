@@ -1,0 +1,12 @@
+/* Inbox Button */
+[data-list-item-id="guildsnav___inbox-button"] {
+    height: 50px;
+    border-radius: 50px;
+    width: 50px;
+    transition: border-radius 0.2s ease-in-out;
+}
+
+[data-list-item-id="guildsnav___inbox-button"]:focus:active, [data-list-item-id="guildsnav___inbox-button"]:hover,
+[data-list-item-id="guildsnav___inbox-button"]:active {
+    border-radius: 17px !important;
+}

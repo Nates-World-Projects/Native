@@ -1,11 +1,35 @@
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Scrollbars               ║ Color                                                                                   ║
+// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+*/
+::-webkit-scrollbar {
+  width: 15px;
+  border-radius: 25px;
+  background-color: var(--scrollbar-track-dark) !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 25px;
+  background-color: var(--color) !important;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Scrollbars               ║ Input                                                                                   ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 */
 
 /* No Scrollbar */
-.scrollableContainer-15eg7h::-webkit-scrollbar {display: none;}
-.scrollableContainer-15eg7h {overflow: hidden;}
+.scrollableContainer-15eg7h::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollableContainer-15eg7h {
+  overflow: hidden;
+}
 
 .textAreaSlate-9-y-k2 {
   overflow-y: auto;
@@ -17,9 +41,11 @@
   width: 16px;
   height: 16px;
 }
+
 .textAreaSlate-9-y-k2::-webkit-scrollbar-corner {
   background-color: transparent;
 }
+
 .textAreaSlate-9-y-k2::-webkit-scrollbar-thumb {
   background-color: var(--scrollbar-auto-thumb);
   min-height: 40px;
@@ -44,21 +70,21 @@
 */
 
 .none-2-_0dP {
-    --scrollbar-width: auto !important;
-    overflow-y: scroll !important;
-    overflow-x: hidden !important;
-    margin-right: 3px;
+  --scrollbar-width: auto !important;
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+  margin-right: 3px;
 }
 
 .none-2-_0dP:hover::-webkit-scrollbar {
-    width: 0.25em !important;
-    border-radius: 25px;
-    height: 0px !important;
-    background: transparent !important;
-    
+  width: 0.25em !important;
+  border-radius: 25px;
+  height: 0px !important;
+  background: transparent !important;
+
 }
 
 .none-2-_0dP::-webkit-scrollbar-thumb {
-    background: var(--background-accent);
-    border-radius: 25px;
+  background: var(--background-accent);
+  border-radius: 25px;
 }

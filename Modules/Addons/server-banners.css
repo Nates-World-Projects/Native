@@ -1,0 +1,30 @@
+/* Banner */
+.container-1NXEtd[aria-label*="CreArts | Community"] .header-3OsQeK::before {
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://i.imgur.com/nOPFf0m.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: var(--radius-primary);
+    opacity: 1.0;
+}
+
+/* Spacing */
+.container-1NXEtd[aria-label*="CreArts | Community"] .header-3OsQeK {
+    height: 135px !important;
+    padding-bottom: 90px;
+    background: transparent;
+}
+
+/* Info Hide (Normal)*/
+.container-1NXEtd[aria-label*="CreArts | Community"] .guildIconContainer-2FW_iA,
+.container-1NXEtd[aria-label*="CreArts | Community"] .name-3Uvkvr,
+.container-1NXEtd[aria-label*="CreArts | Community"] .button-2BMPJJ {
+    z-index: 2;
+    transition: none;
+}

@@ -1,0 +1,7 @@
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css");
+@import url("https://discord-theme-addons.github.io/modern-channel-indicators/src/support/ModernChannelIndicators.theme.css");
+
+:root {
+    --settingsmodalbackground: transparent;
+    --settingsmodalwidth: 1100px;
+}

@@ -37,6 +37,11 @@
 	/* Wallpaper */
 	--wallpaper: url("");
 	--background: var(--background-primary);
+
+	/* Scrollbars */
+	--color: #5865f2;
+	--scrollbar-thumb-dark: #f8f9fa !important;
+	--scrollbar-track-dark: --color !important;
 }
 
 :root {

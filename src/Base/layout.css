@@ -9,7 +9,7 @@
 }
 
 /* Background */
-.chat-2ZfjoI, .containter-2cd8Mz  {
+.chat-2ZfjoI, .containter-2cd8Mz {
 	background: transparent;
 }
 
@@ -53,7 +53,7 @@ ul.tree-3agP2X:focus {
 }
 
 .expandedFolderIconWrapper-3RwQpD, .expandedFolderBackground-1kSAf6 {
-background: #36393f;
+	background: #36393f;
 }
 
 .platform-win .scroller-3X7KbA {
@@ -280,7 +280,7 @@ background: #36393f;
 }
 
 .members-3WRCEx,
-.members-3WRCEx > div {
+.members-3WRCEx>div {
 	background-color: transparent;
 }
 
@@ -293,7 +293,7 @@ background: #36393f;
 .tabs-1RhQha {
 	background: var(--background-secondary);
 	border-radius: var(--radius-primary);
-	margin-bottom: calc( var(--layout) + var(--layout));
+	margin-bottom: calc(var(--layout) + var(--layout));
 	border: none;
 }
 
@@ -335,27 +335,37 @@ background: #36393f;
 
 /* Spacing */
 .tabBody-2dgbAs:before {
-    display: none;
-  }
-  
-  .scroller-hE2gWq {border: none;}
-  
-  .container-1oAagU {background: transparent;}
-  .container-2cd8Mz {background-color: transparent;}
-  
-  /* Background */
-  .peopleColumn-1wMU14 {
-    background: var(--background-secondary);
-    border-radius: var(--radius-primary);
-    margin: var(--layout) var(--layout) 0px var(--layout);
-  }
-  
-  .nowPlayingColumn-1eCBCN {
-    background: var(--background-secondary);
-    border-radius: var(--radius-primary);
-    margin: var(--layout) var(--layout) 0px var(--layout);
-  }
-   .themed-Hp1KC_ {background: transparent;}
+	display: none;
+}
+
+.scroller-hE2gWq {
+	border: none;
+}
+
+.container-1oAagU {
+	background: transparent;
+}
+
+.container-2cd8Mz {
+	background-color: transparent;
+}
+
+/* Background */
+.peopleColumn-1wMU14 {
+	background: var(--background-secondary);
+	border-radius: var(--radius-primary);
+	margin: var(--layout) var(--layout) 0px var(--layout);
+}
+
+.nowPlayingColumn-1eCBCN {
+	background: var(--background-secondary);
+	border-radius: var(--radius-primary);
+	margin: var(--layout) var(--layout) 0px var(--layout);
+}
+
+.themed-Hp1KC_ {
+	background: transparent;
+}
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Layout                   ║ Notice                                                                                  ║
@@ -382,11 +392,13 @@ background: #36393f;
 	background: transparent;
 }
 
-.channelTextArea-1FufC0 {background: transparent;}
+.channelTextArea-1FufC0 {
+	background: transparent;
+}
 
 /* Spacing */
 .inner-NQg18Y {
-	margin-top: calc( var(--layout) + var(--layout));
+	margin-top: calc(var(--layout) + var(--layout));
 }
 
 .channelTextArea-1FufC0 {
@@ -411,6 +423,14 @@ background: #36393f;
 /* Text */
 .fontSize16Padding-XoMpjI {
 	padding: 11px;
+}
+
+.sendIcon-1HcEzu {
+	color: var(--interactive-normal);
+}
+
+.sendIcon-1HcEzu:hover {
+	color: var(--interactive-active);
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -468,7 +488,7 @@ background: #36393f;
 	right: 0px;
 	padding-left: 8px;
 	padding-right: 8px;
-	margin-top: calc( var(--layout) + var(--layout));
+	margin-top: calc(var(--layout) + var(--layout));
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -480,7 +500,7 @@ background: #36393f;
 .attachWrapper-3slhXI .lookBlank-21BCro {
 	background: var(--background-secondary);
 	border-radius: 90px;
-	margin-right: calc( var(--layout) + var(--layout));
+	margin-right: calc(var(--layout) + var(--layout));
 }
 
 /* Spacing */
@@ -517,7 +537,7 @@ background: #36393f;
 	order: 1 !important;
 	background: var(--background-secondary);
 	border-radius: var(--radius-primary);
-	margin-right: calc( var(--layout) + var(--layout));
+	margin-right: calc(var(--layout) + var(--layout));
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
@@ -580,7 +600,7 @@ background: #36393f;
 */
 
 .chatHeaderBar-qygUNT {
-background: var(--background-secondary);
-border-radius: var(--radius-primary);
-margin-bottom: var(--layout-margin-bottom);
+	background: var(--background-secondary);
+	border-radius: var(--radius-primary);
+	margin-bottom: var(--layout-margin-bottom);
 }
