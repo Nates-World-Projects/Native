@@ -1,96 +1,171 @@
-/* ╔════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║                                                 Import                                                 ║ */
-/* ╠════════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
-/* ║ ⚠️ Do not comment out these lines! By disabling the theme can not work correctly.                      ║ */
-/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
-@import url("https://crearts-community.github.io/Friends-Grid/src/source.css");
-/* 🔻Source Files */
+/* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                                Theme Info                                                 ║ */
+/* ╠══════════════════════════╦════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Theme:                   ║ Native                                                                         ║ */
+/* ║ Version:                 ║ 1.0.0                                                                          ║ */
+/* ║ Author:                  ║ Nate's World#2102                                                              ║ */
+/* ║ Compatible Clients:      ║ BetterDiscord, Powercord, Goosemod, Vizality, Stylus                           ║ */
+/* ╠══════════════════════════╩════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║                                               Description                                                 ║ */
+/* ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Native is an easily customizable Discord theme that customizes the Discord's appearance in a native Style.║ */
+/* ║ This theme was created by Nate's World#2102.                                                              ║ */
+/* ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║                                                  Info                                                     ║ */
+/* ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║                                                                                                           ║ */
+/* ║ More information about BetterDiscord can be found here:                                                   ║ */
+/* ║ ● https://betterdiscord.app/                                                                              ║ */
+/* ║                                                                                                           ║ */
+/* ║ More information about Powercord can be found here:                                                       ║ */
+/* ║ ● https://powercord.dev/                                                                                  ║ */
+/* ║                                                                                                           ║ */
+/* ║ More information about Goosemod can be found here:                                                        ║ */
+/* ║ ● https://goosemod.com/                                                                                   ║ */
+/* ║                                                                                                           ║ */
+/* ║ More information about Vizality can be found here:                                                        ║ */
+/* ║ ● https://vizality.com/                                                                                   ║ */
+/* ║                                                                                                           ║ */
+/* ║ More information about Stylus can be found here:                                                          ║ */
+/* ║ ● https://add0n.com/stylus.html                                                                           ║ */
+/* ║                                                                                                           ║ */
+/* ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║                                               Support                                                     ║ */
+/* ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║                                                                                                           ║ */
+/* ║ If you need support join our Nate's World Community Server:                                               ║ */
+/* ║ ●                                                                                                         ║ */
+/* ║                                                                                                           ║ */
+/* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ General                  ║ Here you can make general adjustments.                                      ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════╝ */
+/* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                                   Symbols                                                 ║ */
+/* ╠════╦══════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ 🧪 ║ Experimental                                                                                         ║ */
+/* ╠════╬══════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ ✔️ ║ Enabled by Defualt                                                                                   ║ */
+/* ╠════╬══════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ ❌ ║ Disabled by Defualt                                                                                  ║ */
+/* ╠════╬══════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ ⚠️ ║ Do not Disable!!                                                                                     ║ */
+/* ╚════╩══════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-:root {
-  --FA-version: "v1.0.10";
-  --FG-row: 1fr 1fr 1fr;
-  --FG-search-radius: 8px;
-  --FG-cards-radius: 8px;
-  --FG-cards-height: 180px;
-  --FG-cards-banner-background: var(--brand-experiment);
-  --FG-cards-margin-bottom: 26px;
-  --FG-cards-banner-height: 20px;
-  --FG-cards-border-width: 1px;
-  --FG-avatar-margin-top: 46px;
-  --FG-avatar-margin-left: 20px;
-  --FG-text-margin-left: 20px;
-  --FG-cards-banner-opacity-normal: 1.0;
-  --FG-cards-banner-opacity-hover: 1.0;
-  --FG-cards-banner-opacity-active: 1.0;
-  --FG-cards-avatar-opacity-normal: 1.0;
-  --FG-cards-avatar-opacity-hover: 1.0;
-  --FG-cards-avatar-opacity-active: 1.0;
-  --FG-cards-username-opacity-normal: 1.0;
-  --FG-cards-username-opacity-hover: 1.0;
-  --FG-cards-username-opacity-active: 1.0;
-  --FG-cards-discriminator-opacity-normal: 1.0;
-  --FG-cards-discriminator-opacity-hover: 1.0;
-  --FG-cards-discriminator-opacity-active: 1.0;
-  --FG-cards-status-opacity-normal: 1.0;
-  --FG-cards-status-opacity-hover: 1.0;
-  --FG-cards-status-opacity-active: 1.0;
-  --FG-cards-button-opacity-normal: 0.0;
-  --FG-cards-button-opacity-hover: 1.0;
-  --FG-cards-button-opacity-active: 0.0;
-  --FG-mutal-guilds-normal: 0.0;
-  --FG-mutal-guilds-hover: 1.0;
-  --FG-mutal-guilds-active: 1.0;
-  --FG-avatar-shape: 50%;
-  --FG-transition: all 0.4s ease;
-  --user-accent-color: var(--FG-cards-banner-background);
-}
+/* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                                 Source                                                    ║ */
+/* ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ ⚠️ Do not comment out these lines! By disabling the theme can not work correctly.                         ║ */
+/* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Dark                     ║ Here you can make settings for the Dark Theme.                                          ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+/* Base */
+@import url("https://nates-world-projects.github.io/Native/src/Base/layout.css");
+/* @import url("https://nates-world-projects.github.io/Native/src/Base/loading.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Base/login.css"); */
+@import url("https://nates-world-projects.github.io/Native/src/Base/notice.css");
+@import url("https://nates-world-projects.github.io/Native/src/Base/scrollbars.css");
+/* @import url("https://nates-world-projects.github.io/Native/src/Base/titlebar.css"); */
+@import url("https://nates-world-projects.github.io/Native/src/Base/tooltip.css");
+@import url("https://nates-world-projects.github.io/Native/src/Base/variables.css");
+@import url("https://nates-world-projects.github.io/Native/src/Base/wallpaper.css");
 
-.theme-dark {
-  --FG-search-background: var(--background-tertiary);
-  --FG-cards-background-normal: var(--background-primary);
-  --FG-cards-background-hover: var(--activity-card-background);
-  --FG-cards-background-active: var(--activity-card-background);
-  --FG-cards-border-color-normal: var(--background-modifier-accent);
-  --FG-cards-border-color-hover: var(--background-modifier-accent);
-  --FG-cards-username-normal: var(--header-primary);
-  --FG-cards-username-hover: var(--header-primary);
-  --FG-cards-discriminator-normal: var(--header-secondary);
-  --FG-cards-discriminator-hover: var(--header-secondary);
-  --FG-cards-status-normal: var(--header-secondary);
-  --FG-cards-status-hover: var(--header-secondary);
-  --FG-cards-button-icon-normal: var(--interactive-active);
-  --FG-cards-button-icon-hover: var(--activity-card-background);
-  --FG-cards-button-background-normal: rgba(0, 0, 0, 0.3);
-  --FG-cards-button-background-hover: rgba(0, 0, 0, 0.6);
-}
+/* Componets */
+@import url("https://nates-world-projects.github.io/Native/src/Componets/channels.css");
+@import url("https://nates-world-projects.github.io/Native/src/Componets/content.css");
+/* @import url("https://nates-world-projects.github.io/Native/src/Componets/guild.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Componets/header.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Componets/home.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Componets/input.css"); */
+@import url("https://nates-world-projects.github.io/Native/src/Componets/members.css");
+@import url("https://nates-world-projects.github.io/Native/src/Componets/pannel.css");
 
-/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
-/* ║ Light                    ║ Here you can make settings for the Light Theme.                                         ║ */
-/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+/* Pages */
+/* @import url("https://nates-world-projects.github.io/Native/src/Pages/home.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Pages/favourites.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Pages/boost.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Pages/explore.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Pages/friends.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Pages/libary.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Pages/nitro.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Pages/settings.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Pages/subscription.css"); */
 
-.theme-light {
-  --FG-search-background: var(--background-tertiary);
-  --FG-cards-background-normal: var(--background-secondary);
-  --FG-cards-background-hover: var(--activity-card-background);
-  --FG-cards-background-active: var(--activity-card-background);
-  --FG-cards-border-color-normal: var(--background-modifier-accent);
-  --FG-cards-border-color-hover: var(--background-modifier-accent);
-  --FG-cards-username-normal: var(--header-primary);
-  --FG-cards-username-hover: var(--header-primary);
-  --FG-cards-discriminator-normal: var(--header-secondary);
-  --FG-cards-discriminator-hover: var(--header-secondary);
-  --FG-cards-status-normal: var(--header-secondary);
-  --FG-cards-status-hover: var(--header-secondary);
-  --FG-cards-button-icon-normal: var(--interactive-active);
-  --FG-cards-button-icon-hover: var(--activity-card-background);
-  --FG-cards-button-background-normal: rgba(255, 255, 255, 0.3);
-  --FG-cards-button-background-hover: rgba(255, 255, 255, 0.6);
-}
+/* Popouts */
+/* @import url("https://nates-world-projects.github.io/Native/src/Popouts/active-treads.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Popouts/bots.css"); */
+@import url("https://nates-world-projects.github.io/Native/src/Popouts/calendar.css");
+@import url("https://nates-world-projects.github.io/Native/src/Popouts/emoji-picker.css");
+/* @import url("https://nates-world-projects.github.io/Native/src/Popouts/events.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Popouts/home.css"); */
+@import url("https://nates-world-projects.github.io/Native/src/Popouts/inbox.css");
+/* @import url("https://nates-world-projects.github.io/Native/src/Popouts/pins.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Popouts/profile-large.css"); */
+@import url("https://nates-world-projects.github.io/Native/src/Popouts/profile-small.css");
+/* @import url("https://nates-world-projects.github.io/Native/src/Popouts/roles.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Popouts/rules.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Popouts/search.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Popouts/slash.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Popouts/_status-picker.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Popouts/threads.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/src/Popouts/topic.css"); */
+@import url("https://nates-world-projects.github.io/Native/src/Popouts/upload.css");
+
+/* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                                  Addons                                                   ║ */
+/* ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ To disable certain things, you can comment out the lines. Use "/* " in front.                             ║ */
+/* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/Chat-Bubbles/right.css"); */
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/Context-Menus/styling/css");
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/Emoji-Replace/joypixels.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/avatar-shapes.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/blur.css"); */
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/blurple.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/button-icons.css");
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/category-icons.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/category-names.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/channel-banners.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/channel-buttons.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/channel-icons.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/channel-names.css"); */
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/codeblock-icons.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/contextmenu-icons.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/dash2space.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/discolored.css");
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/events-grid.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/friend-banners.css"); */
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/friends-grid.css");
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/games-grid.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/guild-progressbars.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/image-gallery.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/link-buttons.css"); */
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/link-text.css");
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/perm-colors.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/plugin-grid.css"); */
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/pop.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/pronoun-db.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/radial-statuses.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/server-banners.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/settings-icons.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/settings-popouts.css");
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/status-shapes.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/theme-grid.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/thread-icons.css"); */
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/user-bg.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/user-tags.css");
+
+/* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                                Animations                                                 ║ */
+/* ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ To disable certain things, you can comment out the lines. Use "/* " in front.                             ║ */
+/* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+@import url("https://nates-world-projects.github.io/Native/Modules/Animations/hide-pannels.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Animations/upload.css");
+
+/* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                                Remove                                                     ║ */
+/* ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ To disable certain things, you can comment out the lines. Use "/* " in front.                             ║ */
+/* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+@import url("https://nates-world-projects.github.io/Native/Modules/Remove/no-gif.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Remove/no-sticker.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Remove/no-help.css");
