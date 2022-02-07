@@ -3,7 +3,8 @@
 /* ╠════════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
 /* ║ ⚠️ Do not comment out these lines! By disabling the theme can not work correctly.                      ║ */
 /* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
-@import url("https://crearts-community.github.io/Friends-Grid/src/source.css"); /* 🔻Source Files */
+@import url("https://crearts-community.github.io/Friends-Grid/src/source.css");
+/* 🔻Source Files */
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║ General                  ║ Here you can make general adjustments.                                      ║ */
@@ -54,7 +55,7 @@
 
 .theme-dark {
   --FG-search-background: var(--background-tertiary);
-  --FG-cards-background-normal: var(--background-secondary);
+  --FG-cards-background-normal: var(--background-primary);
   --FG-cards-background-hover: var(--activity-card-background);
   --FG-cards-background-active: var(--activity-card-background);
   --FG-cards-border-color-normal: var(--background-modifier-accent);
@@ -75,7 +76,7 @@
 /* ║ Light                    ║ Here you can make settings for the Light Theme.                                         ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-.theme-light  {
+.theme-light {
   --FG-search-background: var(--background-tertiary);
   --FG-cards-background-normal: var(--background-secondary);
   --FG-cards-background-hover: var(--activity-card-background);

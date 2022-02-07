@@ -1,0 +1,68 @@
+.toolbar-37BrJ5 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 150px;
+    transform: translate(28px, -84%);
+}
+
+.toolbar-37BrJ5 .button-lA2rvH {
+    width: 100%;
+}
+
+.toolbar-37BrJ5 .button-lA2rvH::after {
+    color: var(--text-normal);
+    width: calc(100% - 32px);
+    text-align: left;
+}
+
+.toolbar-37BrJ5 .button-lA2rvH:hover::after {
+    color: #fff;
+}
+
+.toolbar-37BrJ5 .button-lA2rvH.active-136ioF::after {
+    color: #fff;
+}
+
+.toolbar-37BrJ5 .button-lA2rvH .contents-3ca1mk {
+    margin: 6px;
+}
+
+.toolbar-37BrJ5 .button-lA2rvH:nth-of-type(1)::after {
+    content: "Bold";
+}
+
+.toolbar-37BrJ5 .button-lA2rvH:nth-of-type(2)::after {
+    content: "Italics";
+}
+
+.toolbar-37BrJ5 .button-lA2rvH:nth-of-type(3)::after {
+    content: "Strikethrough";
+}
+
+.toolbar-37BrJ5 .button-lA2rvH:nth-of-type(4)::after {
+    content: "Quote";
+}
+
+.toolbar-37BrJ5 .button-lA2rvH:nth-of-type(5)::after {
+    content: "Codeblock";
+}
+
+.toolbar-37BrJ5 .button-lA2rvH:nth-of-type(6)::after {
+    content: "Spoiler";
+}
+
+.divider-3NY7PF {
+    height: 0;
+    border-left: none;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .06);
+    margin: 4px 5px;
+}
+
+.toolbar-37BrJ5 .button-lA2rvH:first-of-type {
+    border-radius: 4px 4px 0px 0px;
+}
+
+.toolbar-37BrJ5 .button-lA2rvH:last-of-type {
+    border-radius: 0px 0px 4px 4px;
+}
