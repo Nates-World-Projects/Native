@@ -254,6 +254,22 @@ ul.tree-3agP2X:focus {
 	border-radius: var(--radius-primary);
 }
 
+.groupStart-3Mlgv1 .timestamp-p1Df1m {
+	margin-left: 24px;
+  }
+  .groupStart-3Mlgv1 .timestamp-p1Df1m::before {
+	position: absolute;
+	content: "";
+	background: var(--text-muted);
+	top: 6px;
+	margin-left: -16px;
+	width: 12px;
+	height: 12px;
+	mask: var(--icon) center/contain no-repeat;
+	-webkit-mask: var(--icon) center/contain no-repeat;
+	--icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm-.22-13h-.06c-.4 0-.72.32-.72.72v4.72c0 .35.18.68.49.86l4.15 2.49c.34.2.78.1.98-.24.21-.34.1-.79-.25-.99l-3.87-2.3V7.72c0-.4-.32-.72-.72-.72z'/%3E%3C/svg%3E");
+  }
+
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Layout                   ║ Members                                                                                 ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
