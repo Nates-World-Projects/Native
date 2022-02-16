@@ -1,32 +1,34 @@
-:root {
-    --accent-primary: #5865f2;
+:root {--accent-primary: #5865f2;}
+
+* {
+  caret-color: #5865f2; 
 }
+
+.bar-2eAyLE {background-color: rgba(88, 101, 242, 1);}
 
 /* Blurple Settings Header */
 .header-2Kx1US, .item-3XjbnG, .defaultColor-2cKwKo, .tipTitle-3FYEQp {
-    color: #5865F2;
+  color: #5865F2;
+}
+
+.placeholder-1_mJY1 {color: #5865f2;
+font-weight: bold;
+text-transform: capitalize;
+text-align: center;
 }
 
 /* Blurple Join/Explore/Download Buttons */
-.circleIconButton-1VxDrg {
-    background-color: var(--accent-primary);
+.circleIconButton-1VxDrg svg path{
+  fill: var(--interactive-hover);
+}
+.circleIconButton-1VxDrg.selected-2r1Hvo{
+  background-color: var(--accent-primary);
+}
+.circleIconButton-1VxDrg.selected-2r1Hvo svg path{
+  fill: white;
 }
 
-.circleIconButton-1VxDrg svg path {
-    fill: white;
-}
-
-.circleIconButton-1VxDrg.selected-2r1Hvo {
-    background-color: var(--accent-primary);
-}
-
-.circleIconButton-1VxDrg.selected-2r1Hvo svg path {
-    fill: white;
-}
-
-.guildSeparator-a4uisj {
-    display: none !important;
-}
+.guildSeparator-a4uisj {display: none !important;}
 
 /* Blurple Drag Line */
 .target-1eRTCg.dragOver-1OKbo2:before {
@@ -86,6 +88,6 @@
 }
 
 /* Blurple Verified Icon */
-.verified-1Jv_7P:not(.disableColor-MwOAZf)>svg path {
+.verified-1Jv_7P:not(.disableColor-MwOAZf) > svg path {
     fill: var(--accent-primary)
 }
