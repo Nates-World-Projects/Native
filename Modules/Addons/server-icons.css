@@ -1,0 +1,134 @@
+/* Alternate Banners */
+.header-2o-2hj[data-guild-id=""] ~ div .bannerImage-1jOskm {
+    background-image: url("") !important;
+  }
+  
+  /* Alternate Discord Icons */
+  
+  /* Template */
+  .icon-3AqZ2e[src*="server-id"] {
+    height: 0px;
+    width: 0px;
+    margin-top: 50px;  /* change this depending on the ratio of the image*/
+    margin-left: 50px;  /* change this depending on the ratio of the image*/
+    padding: 100px;
+    background-image: url(image/gif-link) !important;
+    background-size:50px;
+  }
+  
+  
+  
+  /* Discord Townhall */
+  .icon-1zKOXL[style*="169256939211980800"],
+  .icon-3AqZ2e[src*="169256939211980800"] {
+      content: url("https://media.discordapp.net/attachments/921797734263033866/921801699650330664/unknown.png?width=512&height=512");
+  }
+  
+  /* Discord API */
+  .icon-1zKOXL[style*="81384788765712384"],
+  .icon-3AqZ2e[src*="81384788765712384"] {
+      content: url("https://media.discordapp.net/attachments/921797734263033866/921803197725700156/unknown.png?width=512&height=512");
+  }
+  
+  /* Discord JS */
+  .icon-1zKOXL[style*="222078108977594368"],
+  .icon-3AqZ2e[src*="222078108977594368"] {
+      content: url("https://media.discordapp.net/attachments/921797734263033866/921807109966946384/unknown.png?width=512&height=512");
+  }
+  
+  /* Discord Python */
+  .icon-1zKOXL[style*="336642139381301249"],
+  .icon-3AqZ2e[src*="336642139381301249"] {
+      content: url("https://media.discordapp.net/attachments/921797734263033866/921807900865859634/unknown.png?width=512&height=512");
+  }
+  
+  /* Discord Games Testing */
+  .icon-1zKOXL[style*="831646372519346186"],
+  .icon-3AqZ2e[src*="831646372519346186"] {
+      content: url("https://media.discordapp.net/attachments/921797734263033866/921810981481496646/unknown.png?width=512&height=512");
+  }
+  
+  /* Project Blurple */
+  .icon-1zKOXL[style*="412754940885467146"],
+  .icon-3AqZ2e[src*="412754940885467146"] {
+      content: url("https://media.discordapp.net/attachments/921797734263033866/921810322141118494/unknown.png?width=512&height=512");
+  }
+  
+  /* Top.gg */
+  .icon-1zKOXL[style*="264445053596991498"],
+  .icon-3AqZ2e[src*="264445053596991498"] {
+      content: url("https://media.discordapp.net/attachments/921797734263033866/921809481908752394/unknown.png?width=512&height=512");
+  }
+  
+  /* Discord Boats */
+  .icon-1zKOXL[style*="439866052684283905"],
+  .icon-3AqZ2e[src*="439866052684283905"] {
+      content: url("https://media.discordapp.net/attachments/921797734263033866/921809828291154010/unknown.png?width=512&height=512");
+  }
+  
+  /* Discord Bots */
+  .icon-1zKOXL[style*="110373943822540800"],
+  .icon-3AqZ2e[src*="110373943822540800"] {
+      content: url("https://media.discordapp.net/attachments/921797734263033866/921808317188296764/unknown.png?width=512&height=512");
+  }
+  
+  /* Sebi's Townhall */
+  .icon-1zKOXL[style*="871779727352950824"],
+  .icon-3AqZ2e[src*="871779727352950824"] {
+      content: url("https://media.discordapp.net/attachments/921797734263033866/921832852813906011/unknown.png?width=512&height=512");
+  }
+  
+  /* Discord Owners */
+  .icon-1zKOXL[style*="892080966871420989"],
+  .icon-3AqZ2e[src*="892080966871420989"] {
+      content: url("https://media.discordapp.net/attachments/921797734263033866/921838876895621180/unknown.png?width=512&height=512");
+  }
+  
+  /* Owners Hub */
+  .icon-1zKOXL[style*="747467177979805847"],
+  .icon-3AqZ2e[src*="747467177979805847"] {
+      content: url("https://media.discordapp.net/attachments/921797734263033866/921839258187235338/unknown.png?width=512&height=512");
+  }
+  
+  /* Displace */
+  .icon-1zKOXL[style*="641574644578648068"],
+  .icon-3AqZ2e[src*="641574644578648068"] {
+      content: url("https://media.discordapp.net/attachments/921797734263033866/921839463812956170/unknown.png?width=512&height=512");
+  }
+  
+  /* Hypesquad */
+  .icon-1zKOXL[style*="662350530517008388"],
+  .icon-3AqZ2e[src*="662350530517008388"] {
+      content: url("https://media.discordapp.net/attachments/921797734263033866/921840076672073758/unknown.png?width=512&height=512");
+  }
+  
+  /* Hypesuad Balance */
+  .icon-1zKOXL[style*="468562942929928215"],
+  .icon-3AqZ2e[src*="468562942929928215"] {
+      content: url("https://media.discordapp.net/attachments/921797734263033866/921840383548338176/unknown.png?width=512&height=512");
+  }
+  
+  /* Hypesquad Brillance */
+  .icon-1zKOXL[style*="468565421071532032"],
+  .icon-3AqZ2e[src*="468565421071532032"] {
+      content: url("https://media.discordapp.net/attachments/921797734263033866/921840441589121094/unknown.png?width=512&height=512");
+  }
+  
+  /* Hypesquad Bravery */
+  .icon-1zKOXL[style*="468564048552787969"],
+  .icon-3AqZ2e[src*="468564048552787969"] {
+      content: url("https://media.discordapp.net/attachments/921797734263033866/921840493082595408/unknown.png?width=512&height=512");
+  }
+  
+  /* Alternate Server Names */
+  [data-guild-id="901502615341396068"]>.name-3Uvkvr{
+        visibility: hidden;
+      position: relative;
+  }
+  [data-guild-id="901502615341396068"]>.name-3Uvkvr:after {
+      visibility: visible;
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "Name Here";
+  }
