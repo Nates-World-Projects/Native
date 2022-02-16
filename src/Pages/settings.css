@@ -1,0 +1,16 @@
+.info-3pQQBb {
+    text-transform: none;
+  }
+  
+  .info-3pQQBb .size12-3cLvbJ {
+    text-transform: capitalize;
+  }
+  
+  .info-3pQQBb:last-child::after {
+    content: "Native (Theme) - DEV";
+    color: var(--text-muted);
+    position: relative;
+    line-height: 16px;
+    font-size: 12px;
+    width: 100%;
+  }
