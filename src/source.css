@@ -82,7 +82,7 @@
 /* @import url("https://nates-world-projects.github.io/Native/src/Pages/favourites.css"); */
 /* @import url("https://nates-world-projects.github.io/Native/src/Pages/boost.css"); */
 /* @import url("https://nates-world-projects.github.io/Native/src/Pages/explore.css"); */
-/* @import url("https://nates-world-projects.github.io/Native/src/Pages/friends.css"); */
+@import url("https://nates-world-projects.github.io/Native/src/Pages/friends.css");
 /* @import url("https://nates-world-projects.github.io/Native/src/Pages/libary.css"); */
 /* @import url("https://nates-world-projects.github.io/Native/src/Pages/nitro.css"); */
 @import url("https://nates-world-projects.github.io/Native/src/Pages/settings.css");
@@ -192,4 +192,4 @@
 /* ╠═══════════════════════════════════════════════════════════════════════════════════════════════════════════╣ */
 /* ║ To disable certain things, you can comment out the lines. Use "/* " in front.                             ║ */
 /* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
-@import url("https://nates-world-projects.github.io/Native/Modules/Splash/defualt.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Splash/default.css");
