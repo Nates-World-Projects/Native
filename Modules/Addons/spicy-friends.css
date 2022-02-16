@@ -1,0 +1,16 @@
+#app-mount [aria-controls="all-tab"i] {
+	order: -1;
+    color: #5865f2;
+}
+
+#app-mount [aria-controls="online-tab"i] {
+color: #3CA55D;
+}
+
+#app-mount [aria-controls="pending-tab"i] {
+color: #CB8C23;
+}
+
+#app-mount [aria-controls="blocked-tab"i] {
+color: #EE4747;
+}
