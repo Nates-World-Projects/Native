@@ -770,14 +770,44 @@ a[href*="https://support.discord.com"]:after
 /* Badges */
 :root {
     --developers: url("data:image/svg+xml,%3Csvg width='22' height='22' viewBox='0 0 20 12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.4 10.6L2.8 6L7.4 1.4L6 0L0 6L6 12L7.4 10.6ZM12.6 10.6L17.2 6L12.6 1.4L14 0L20 6L14 12L12.6 10.6V10.6Z' fill='white'/%3E%3C/svg%3E%0A");
-    }
+  }
     
-    .userPopout-2j1gM4[aria-label="Nate's World"] .profileBadges-2pItdR::before {
-      content: var(--developers);
-        margin-right: 5px;
-    }
+.userPopout-2j1gM4[aria-label="Nate's World"] .profileBadges-2pItdR::before {
+  content: var(--developers);
+  margin-right: 5px;
+  }
     
-    .userPopout-2j1gM4[aria-label="ModuleMinecraft"] .profileBadges-2pItdR::before {
-      content: var(--developers);
-        margin-right: 5px;
-    }
+.userPopout-2j1gM4[aria-label="ModuleMinecraft"] .profileBadges-2pItdR::before {
+    content: var(--developers);
+    margin-right: 5px;
+  }
+
+.userPopout-2j1gM4[aria-label="Butterscootch"] .profileBadges-2pItdR::before {
+  content: var(--developers);
+  margin-right: 5px;
+}
+
+.userPopout-2j1gM4[aria-label="Woof1209"] .profileBadges-2pItdR::before {
+  content: var(--developers);
+  margin-right: 5px;
+}
+
+.userPopout-2j1gM4[aria-label="bob218191"] .profileBadges-2pItdR::before {
+  content: var(--developers);
+  margin-right: 5px;
+}
+
+.userPopout-2j1gM4[aria-label="IGL"] .profileBadges-2pItdR::before {
+  content: var(--developers);
+  margin-right: 5px;
+}
+
+.userPopout-2j1gM4[aria-label="CorellanStoma"] .profileBadges-2pItdR::before {
+  content: var(--developers);
+  margin-right: 5px;
+}
+
+.userPopout-2j1gM4[aria-label="Ball Buster Bob 9000"] .profileBadges-2pItdR::before {
+  content: var(--developers);
+  margin-right: 5px;
+}
