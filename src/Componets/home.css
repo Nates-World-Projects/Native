@@ -1,0 +1,12 @@
+/* ╔════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+// ║ Home               ║ Icon                                                                              ║
+// ╚════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝
+*/
+
+.homeIcon-r0w4ny path {display:none}
+.homeIcon-r0w4ny {
+background-repeat: no-repeat;
+background-image: var(--home-icon);
+background-size: contain;
+background-position: center;
+}

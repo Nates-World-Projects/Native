@@ -72,13 +72,13 @@
 @import url("https://nates-world-projects.github.io/Native/src/Componets/content.css");
 /* @import url("https://nates-world-projects.github.io/Native/src/Componets/guild.css"); */
 /* @import url("https://nates-world-projects.github.io/Native/src/Componets/header.css"); */
-/* @import url("https://nates-world-projects.github.io/Native/src/Componets/home.css"); */
+@import url("https://nates-world-projects.github.io/Native/src/Componets/home.css");
 /* @import url("https://nates-world-projects.github.io/Native/src/Componets/input.css"); */
 @import url("https://nates-world-projects.github.io/Native/src/Componets/members.css");
 @import url("https://nates-world-projects.github.io/Native/src/Componets/pannel.css");
 
 /* Pages */
-@import url("https://nates-world-projects.github.io/Native/src/Pages/home.css");
+/* @import url("https://nates-world-projects.github.io/Native/src/Pages/home.css"); */
 /* @import url("https://nates-world-projects.github.io/Native/src/Pages/favourites.css"); */
 /* @import url("https://nates-world-projects.github.io/Native/src/Pages/boost.css"); */
 /* @import url("https://nates-world-projects.github.io/Native/src/Pages/explore.css"); */
