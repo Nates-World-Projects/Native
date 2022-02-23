@@ -1,190 +1,371 @@
-/*
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Compact                  ║ General                                                                                 ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Discord Theme                                                                                              ║ */
+/* ╠═══════════════════════╦════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Theme:                ║ Compact Status Picker                                                              ║ */
+/* ║ Version:              ║ 1.0.0                                                                              ║ */
+/* ║ Author:               ║ Nate's World#2102                                                                  ║ */
+/* ╠═══════════════════════╩════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Adds some touches to Discord's Status Picker while keeping it feel Native                                  ║ */
+/* ║ This theme was created by Nate's World#2102.                                                               ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+/* 🧪 Experimental
+/* ✔️ Activated by default
+/* ❌ Disabled by default
+/* ⚠️ Do not touch!
 
-// Spacing
+/* ╔═════════════════════╦═══════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ General             ║ Here you can make general adjustments.                                                ║ */
+/* ╚═════════════════════╩═══════════════════════════════════════════════════════════════════════════════════════╝ */
+:root {
+	--dark-theme-blur: rgb(0, 0, 0, .5);
+	/* Do not change!!! */
+	--white-theme-blur: rgba(0, 0, 0, 0);
+	/* Do not change!!! */
+	--blur: 5px;
+	/* Change this to change the blur effect */
+	--glow-blur: 15px;
+	--channelbanner-blur: 6px;
+	--text-color: rgb(255, 255, 255);
+	--icon-size: 25px;
+	--online-color: #43b581;
+	--idle-color: hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%);
+	--dnd-color: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);
+	--invisible-color: hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%);
+	--border-color: rgb(88, 101, 242);
+	/* Change this to effect the border color */
+	--border-radius: 10px;
+	/* Change this to make the border radius smaller or bigger */
+	--border-width: 3px;
+	/* Change this to effect how wide the border is */
+	--transition-out: 0.3s 0.2s cubic-bezier(0, 0, 0, 1);
+	--transition-in: 0.4s 0s cubic-bezier(0, 0, 0, 1);
+}
+
+/* ╔══════════════════════╦══════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ SRC (Layout)         ║ Do not comment out these lines! By disabling the theme can not work correctly.       ║ */
+/* ╚══════════════════════╩══════════════════════════════════════════════════════════════════════════════════════╝ */
 #status-picker .scrollerBase-_bVAAt {
-  display: grid;
+	display: grid;
 }
 
-#status-picker-custom-status,
-#status-picker div[role=group] {
-  grid-column: 1/5;
+#status-picker > div > *:not(#status-picker-online, #status-picker-idle, #status-picker-dnd, #status-picker-invisible) {
+	grid-column: 1/5;
 }
 
-// Background (Base)
-#status-picker {
-  border-radius: var(--radius-primary);
-}
-
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Compact                  ║ Disabled                                                                                ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-// No Title
 #status-picker .item-1OdjEX:not(#status-picker-custom-status, #status-picker-switch-account) .status-3TYC5W {
-  display: none;
+	display: none;
 }
 
-// No Description
-#status-picker .description-3Cwkxk {display: none;}
+#status-picker .description-3Cwkxk {
+	display: none;
+}
 
-// No Separator
-#status-picker .separator-1So4YB {display: none;}
+#status-picker .separator-1So4YB {
+	display: none;
+}
 
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Compact                  ║ Items                                                                                   ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-// Spacing
 #status-picker .status-3TYC5W {
-  margin-left: var(--context-icon-spacing);
+	margin-left: 8px;
 }
 
 #status-picker .customEmojiPlaceholder-3mRJqA,
 #status-picker .switchAccountsIcon-36imMT {
-  margin-left: 1px;
+	margin-left: 1px;
 }
 
-// Background
-#status-picker .item-1OdjEX {
-  border-radius: var(--context-button-radius) !important;
-}
-
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Compact                  ║ Icons                                                                                   ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-// Icon Size
 #status-picker .mask-2Me5HY {
-  height: 78%; 
-  width: 78%;
-  margin-left: 3px;
+	height: 78%;
+	width: 78%;
+	margin-left: 3px;
 }
 
-// Spacing
 #status-picker-online,
 #status-picker-idle,
 #status-picker-dnd {
-  margin-right: 20px;
+	margin-right: 20px;
 }
 
 #status-picker-online .statusItem-2hiCNB,
 #status-picker-idle .statusItem-2hiCNB,
 #status-picker-dnd .statusItem-2hiCNB,
 #status-picker-invisible .statusItem-2hiCNB {
-  padding: 8px 8px;
+	padding: 8px 8px;
 }
 
 #status-picker-custom-status .statusItem-2hiCNB {
-  padding: 6px 8px;
+	padding: 6px 8px;
 }
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Compact                  ║ Icons (Set Status)                                                                      ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 
-// Icon (Normal)
 #status-picker .customEmojiPlaceholder-3mRJqA {
-  background-image: none;
-  background-color: var(--interactive-normal);
-  mask: var(--icon) center/contain no-repeat;
-  -webkit-mask: var(--icon) center/contain no-repeat;
-  width: 22px;
-  height: 22px;
-  --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M11.99,2C6.47,2,2,6.48,2,12s4.47,10,9.99,10C17.52,22,22,17.52,22,12S17.52,2,11.99,2z M8.5,8C9.33,8,10,8.67,10,9.5 S9.33,11,8.5,11S7,10.33,7,9.5S7.67,8,8.5,8z M16.75,14.75C15.8,16.39,14.03,17.5,12,17.5s-3.8-1.11-4.75-2.75 C7.06,14.42,7.31,14,7.69,14h8.62C16.7,14,16.94,14.42,16.75,14.75z M15.5,11c-0.83,0-1.5-0.67-1.5-1.5S14.67,8,15.5,8 S17,8.67,17,9.5S16.33,11,15.5,11z'/%3E%3C/svg%3E");
+	background-image: none;
+	background-color: var(--interactive-normal);
+	mask: var(--icon) center/contain no-repeat;
+	-webkit-mask: var(--icon) center/contain no-repeat;
+	width: 22px;
+	height: 22px;
+	--icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M11.99,2C6.47,2,2,6.48,2,12s4.47,10,9.99,10C17.52,22,22,17.52,22,12S17.52,2,11.99,2z M8.5,8C9.33,8,10,8.67,10,9.5 S9.33,11,8.5,11S7,10.33,7,9.5S7.67,8,8.5,8z M16.75,14.75C15.8,16.39,14.03,17.5,12,17.5s-3.8-1.11-4.75-2.75 C7.06,14.42,7.31,14,7.69,14h8.62C16.7,14,16.94,14.42,16.75,14.75z M15.5,11c-0.83,0-1.5-0.67-1.5-1.5S14.67,8,15.5,8 S17,8.67,17,9.5S16.33,11,15.5,11z'/%3E%3C/svg%3E");
 }
 
-// Icon (Hover)
-#status-picker .colorDefault-CDqZdO.focused-3qFvc8 .customEmojiPlaceholder-3mRJqA {
-  background: var(--context-icon-focused);
+#status-picker .colorDefault-CDqZdO.focused-3qFvc8.customEmojiPlaceholder-3mRJqA {
+	background: var(--interactive-active);
 }
 
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Compact                  ║ Icons (Swtich Account)                                                                  ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-// Icon (Normal)
 #status-picker .switchAccountsIcon-36imMT {
-  background-image: none;
-  background-color: var(--interactive-normal);
-  mask: var(--icon) center/contain no-repeat;
-  -webkit-mask: var(--icon) center/contain no-repeat;
-  width: 22px;
-  height: 22px;
-  --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cg%3E%3Crect fill='none' height='24' width='24'/%3E%3C/g%3E%3Cg%3E%3Cpath d='M17,20H4V7c0-0.55-0.45-1-1-1S2,6.45,2,7v13c0,1.1,0.9,2,2,2h13c0.55,0,1-0.45,1-1S17.55,20,17,20z M20,2H8 C6.9,2,6,2.9,6,4v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V4C22,2.9,21.1,2,20,2z M14,5c1.66,0,3,1.34,3,3c0,1.66-1.34,3-3,3 s-3-1.34-3-3C11,6.34,12.34,5,14,5z M7.76,16c1.47-1.83,3.71-3,6.24-3s4.77,1.17,6.24,3H7.76z'/%3E%3C/g%3E%3C/svg%3E");
+	background-image: none;
+	background-color: var(--interactive-normal);
+	mask: var(--icon) center/contain no-repeat;
+	-webkit-mask: var(--icon) center/contain no-repeat;
+	width: 22px;
+	height: 22px;
+	--icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cg%3E%3Crect fill='none' height='24' width='24'/%3E%3C/g%3E%3Cg%3E%3Cpath d='M17,20H4V7c0-0.55-0.45-1-1-1S2,6.45,2,7v13c0,1.1,0.9,2,2,2h13c0.55,0,1-0.45,1-1S17.55,20,17,20z M20,2H8 C6.9,2,6,2.9,6,4v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V4C22,2.9,21.1,2,20,2z M14,5c1.66,0,3,1.34,3,3c0,1.66-1.34,3-3,3 s-3-1.34-3-3C11,6.34,12.34,5,14,5z M7.76,16c1.47-1.83,3.71-3,6.24-3s4.77,1.17,6.24,3H7.76z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-// Icon (Hover)
-#status-picker .colorDefault-CDqZdO.focused-3qFvc8 .switchAccountsIcon-36imMT {
-  background: var(--context-icon-focused);
+#status-picker .colorDefault-CDqZdO.focused-3qFvc8.switchAccountsIcon-36imMT {
+	background: var(--interactive-active);
 }
 
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Compact                  ║ Icons (Swtich Account)                                                                  ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-// Spacing
 #status-picker-custom-status,
 #status-picker-switch-account,
 #status-picker-switch-account--manage-accounts {
-  margin-top: 12px !important;
+	margin-top: 12px !important;
 }
 
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Compact                  ║ Separator (Horizontal)                                                                  ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-// Separator (Status)
 #status-picker-custom-status::after {
-  content: "";
-  background: var(--background-modifier-accent);
-  position: absolute;
-  top: -6px;
-  left: 2px;
-  width: 98%;
-  height: 1px;
+	content: "";
+	background: var(--background-modifier-accent);
+	position: absolute;
+	top: -6px;
+	left: 2px;
+	width: 98%;
+	height: 1px;
 }
 
-// Separator (Switch Accounts)
 #status-picker-switch-account::after {
-  content: "";
-  background: var(--background-modifier-accent);
-  position: absolute;
-  top: -6px;
-  left: 2px;
-  width: 98%;
-  height: 1px;
+	content: "";
+	background: var(--background-modifier-accent);
+	position: absolute;
+	top: -6px;
+	left: 2px;
+	width: 98%;
+	height: 1px;
 }
 
-// Separator (Sub Menu)
 #status-picker-switch-account--manage-accounts::after {
-  content: "";
-  background: var(--background-modifier-accent);
-  position: absolute;
-  top: -7px;
-  left: 2px;
-  width: 98%;
-  height: 1px;
+	content: "";
+	background: var(--background-modifier-accent);
+	position: absolute;
+	top: -7px;
+	left: 2px;
+	width: 98%;
+	height: 1px;
 }
 
-// ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
-// ║ Compact                  ║ Separator (Vertical)                                                                    ║
-// ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
-
-// Separator (Icons)
 #status-picker-dnd::after,
 #status-picker-idle::after,
 #status-picker-online::after {
-  content: "";
-  background: var(--background-modifier-accent);
-  position: absolute;
-  top: 6px;
-  left: 50px;
-  width: 1px;
-  height: 24px;
+	content: "";
+	background: var(--background-modifier-accent);
+	position: absolute;
+	top: 6px;
+	left: 50px;
+	width: 1px;
+	height: 24px;
+}
+
+#status-picker .betaTag-3pnIxA {
+	display: none;
+}
+
+/* ╔═════════════════════╦═══════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ SRC (Gradients)     ║ Do not comment out these lines! By disabling the theme can not work correctly.        ║ */
+/* ╚══════════════════════╩══════════════════════════════════════════════════════════════════════════════════════╝ */
+#status-picker .focused-3qFvc8 {
+	background: linear-gradient(45deg, #2b45a2, #7289da);
+}
+
+#status-picker .focused-3qFvc8j#status-picke-online {
+	background: linear-gradient(45deg, #21583f, #43b581);
+}
+
+#status-picker .focused-3qFvc8#status-picker-idle {
+	background: linear-gradient(45deg, #915c03, #faa61a);
+}
+
+#status-picker .focused-3qFvc8#status-picker-dnd {
+	background: linear-gradient(45deg, #aa0e0e, #f04747);
+}
+
+#status-picker .focused-3qFvc8#status-picker-invisible {
+	background: linear-gradient(45deg, #3a4047, #747f8d);
+}
+
+/* ╔═══════════════════════════╦═══════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Glow Focuesd & Unfocused  ║ Do not comment out these lines! By disabling the theme can not work correctly.    ║ */
+/* ╚═══════════════════════════╩═══════════════════════════════════════════════════════════════════════════════════╝ */
+/* Focused */
+#app-mount #status-picker-online.focused-3qFvc8 .status-3TYC5W,
+#app-mount #status-picker-idle.focused-3qFvc8 .status-3TYC5W,
+#app-mount #status-picker-dnd.focused-3qFvc8 .status-3TYC5W,
+#app-mount #status-picker-invisible.focused-3qFvc8 .status-3TYC5W,
+#app-mount #status-picker-online.focused-3qFvc8,
+#app-mount #status-picker-idle.focused-3qFvc8,
+#app-mount #status-picker-dnd.focused-3qFvc8,
+#app-mount #status-picker-invisible.focused-3qFvc8,
+#app-mount #status-picker-custom-status.focused-3qFvc8,
+#app-mount #status-picker-switch-account.focused-3qFvc8 {
+	transition: var(--transition-in);
+}
+
+/* Unfocused */
+#app-mount #status-picker-online .status-3TYC5W,
+#app-mount #status-picker-idle .status-3TYC5W,
+#app-mount #status-picker-dnd .status-3TYC5W,
+#app-mount #status-picker-invisible .status-3TYC5W,
+#app-mount #status-picker-online,
+#app-mount #status-picker-idle,
+#app-mount #status-picker-dnd,
+#app-mount #status-picker-invisible {
+	transition: var(--transition-out);
+}
+
+/* ╔═════════════════════╦═══════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ SRC (Glow)          ║ Do not comment out these lines! By disabling the theme can not work correctly.        ║ */
+/* ╚═════════════════════╩═══════════════════════════════════════════════════════════════════════════════════════╝ */
+/* Online Glow (Focused) */
+#app-mount #status-picker-online.focused-3qFvc8 {
+	filter: drop-shadow(0 0 var(--glow-blur) var(--online-color)) !important;
+}
+
+/* Online Glow (Unfocused) */
+#app-mount #status-picker-online {
+	filter: drop-shadow(0 0 0px var(--online-color)) !important;
+}
+
+/* Idle Glow (Focused) */
+#app-mount #status-picker-idle.focused-3qFvc8 {
+	filter: drop-shadow(0 0 var(--glow-blur) var(--idle-color));
+}
+
+/* Idle Glow (Unfocused) */
+#app-mount #status-picker-idle {
+	filter: drop-shadow(0 0 0px var(--idle-color));
+}
+
+/* DND (Focused) */
+#app-mount #status-picker-dnd.focused-3qFvc8 {
+	filter: drop-shadow(0 0 var(--glow-blur) var(--dnd-color));
+}
+
+/* DND (Unfocused) */
+#app-mount #status-picker-dnd {
+	filter: drop-shadow(0 0 0px var(--dnd-color));
+}
+
+/* Invisible (Focused) */
+#app-mount #status-picker-invisible.focused-3qFvc8 {
+	filter: drop-shadow(0 0 var(--glow-blur) var(--invisible-color));
+}
+
+/* Invisible (Unfocused) */
+#app-mount #status-picker-invisible {
+	filter: drop-shadow(0 0 0px var(--invisible-color));
+}
+
+/* ╔═══════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Fixes             ║ Do not comment out these lines! By disabling the theme can not work correctly.          ║ */
+/* ╚═══════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+/* Adds a fix to Channel List */
+.sidebar-1tnWFu {
+	width: 266px !important;
+}
+
+/* Fix Banner being to short */
+.bannerImg-2PzH6z,
+.bannerImage-ubW8K- {
+	width: 100%;
+}
+
+/* Jitter fixes */
+#status-picker-custom-status .status-3TYC5W {
+	display: block;
+	height: 18px;
+}
+
+#status-picker-switch-account .iconContainer-1-SsTR {
+	position: absolute;
+	right: 5px;
+}
+
+/* ╔═══════════════════════╦═════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Background & Boarder  ║ Do not comment out these lines! By disabling the theme can not work correctly.      ║ */
+/* ╚═══════════════════════╩═════════════════════════════════════════════════════════════════════════════════════╝ */
+/* See-through background, to use the pseudo-element instead */
+#status-picker,
+#status-picker .menu-1QACrS {
+	background: var(--dark-theme-blur);
+}
+
+/* ╔═════════════════════╦═══════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Hover               ║ Here you can make general adjustments.                                                ║ */
+/* ╚═════════════════════╩═══════════════════════════════════════════════════════════════════════════════════════╝ */
+/* Flex Buttons */
+#status-picker-custom-status .statusItem-2hiCNB {
+	display: flex;
+	justify-content: center;
+}
+
+#status-picker-switch-account .statusItem-2hiCNB {
+	display: flex;
+	justify-content: center;
+}
+
+/* Focused Mode */
+#status-picker-custom-status.focused-3qFvc8 .status-3TYC5W {
+	width: 100%;
+	transition: width var(--transition-in);
+}
+
+#status-picker-switch-account.focused-3qFvc8 div.status-3TYC5W {
+	width: 100%;
+}
+
+/* Unfocused Mode */
+#status-picker-custom-status .status-3TYC5W {
+	width: 0;
+	overflow: hidden;
+	transition: width var(--transition-out);
+}
+
+/* Switch account text (Hidden) */
+#status-picker-switch-account div.status-3TYC5W {
+	width: 0;
+	overflow: hidden;
+	transition: width 0.3s cubic-bezier(0, 0, 0, 1);
+}
+
+/* Makes Switch Account Arrow on hover */
+#status-picker-switch-account .iconContainer-1-SsTR {
+	opacity: 0;
+	transition: opacity 0.3s 0.2s cubic-bezier(0, 0, 0, 1);
+}
+
+#status-picker-switch-account.focused-3qFvc8 .iconContainer-1-SsTR {
+	opacity: 1;
+	transition: opacity 0.3s 0s cubic-bezier(0, 0, 0, 1);
 }
 
 
+/* Safety Checks */
+/* Prevents long custom status overflow */
+#status-picker-custom-status .statusItem-2hiCNB {
+	max-width: 225px;
+}
 
-*/
+/* Makes the custom status text & clear button default position */
+#status-picker-custom-status .customText-36Uwzc {
+	flex-grow: 1;
+}
+
+#status-picker-switch-account .status-3TYC5W {
+	white-space: nowrap;
+}
