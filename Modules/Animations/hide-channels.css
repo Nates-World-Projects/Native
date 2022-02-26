@@ -1,0 +1,20 @@
+.container-1NXEtd:hover {
+	margin-bottom: 0px;
+	transition: all .3s ease-in-out;
+}
+
+.container-1NXEtd:hover + .panels-3wFtMD {
+	height: 0px;
+	margin-top: 0px;
+	animation: slideDown .5s;
+	
+}
+
+@keyframes slideDown {
+  from {
+      margin-bottom: 37px;
+}
+  to {
+      margin-bottom: 0px;
+  }
+}
