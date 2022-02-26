@@ -1,0 +1,24 @@
+.base-2v-uc0 {
+    transition: all 0.5s;
+}
+.base-2v-uc0:hover {
+    transition: all 0s;
+    transform: scale(1.02);
+}
+
+/* Make autocomplete scrollable */
+.autocomplete-3NRXG8 {
+    max-height: calc(100vh - 120px);
+    overflow-y: scroll;
+  }
+  .autocomplete-3NRXG8::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color: var(--scrollbar-thin-thumb);
+    min-height: 40px;
+  }
+  .autocomplete-3NRXG8::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }

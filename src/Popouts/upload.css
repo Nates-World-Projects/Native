@@ -11,3 +11,21 @@
 .attachButtonPlay-1ATmb5 {
     display: none;
 }
+
+.channelAttachmentArea-HwpkuQ {
+    background: var(--background-secondary) !important;
+    left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.image-1091CL {
+    border-radius: 10px !important;
+    background: var(--background-primary);
+}
+
+.upload-vLbqu- {
+    border-radius: 10px !important;
+    background: var(--background-primary);
+margin-left: 10px
+}

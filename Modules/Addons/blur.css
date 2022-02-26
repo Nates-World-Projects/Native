@@ -1,0 +1,205 @@
+.textContent-TsKzji.textContent-TsKzji {
+    filter: blur(10px);
+    transition: .2s cubic-bezier(.2, .11, 0, 1);
+}
+.textContent-TsKzji.textContent-TsKzji:hover {
+    filter: none;
+    transition: .5s;
+}
+
+/* Title */
+.children-1xdcWE  .fieldTitle-2g5r_V {
+    margin-left: 4px;
+}
+
+/* My Account */
+.children-1xdcWE .fieldList-in8WkP .size16-rrJ6ag {
+    transition: all 40ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    filter: blur(3px);
+    opacity: 0.8;
+    margin-left: 4px;
+}
+
+.children-1xdcWE .fieldList-in8WkP .size16-rrJ6ag:hover {
+    transition: all 40ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
+    filter: none;
+    opacity: 1;
+    margin-left: 4px;
+}
+
+/* Payment Methods */
+.paymentSourceRow-1z8x7Z .subText-3Yps8e {
+    transition: all 40ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    filter: blur(3px);
+    opacity: 0.8;
+}
+
+.paymentSourceRow-1z8x7Z .subText-3Yps8e:hover {
+    transition: all 40ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
+    filter: none;
+    opacity: 1;
+}
+
+/* Transaction History */
+.theme-dark .verticalFit-21XL0v .summaryInfo-3hcuop,
+.theme-light .verticalFit-21XL0v .summaryInfo-3hcuop {
+    transition: all 40ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    filter: blur(8px);
+    opacity: 0.8;
+}
+
+.theme-dark .verticalFit-21XL0v:hover .summaryInfo-3hcuop,
+.theme-light .verticalFit-21XL0v:hover .summaryInfo-3hcuop {
+    transition: all 40ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
+    filter: none;
+    opacity: 1;
+}
+
+/* Subscriptions */
+.detailsBlock-FoDTGA .paymentSourceLabel-1z_EVr {
+    transition: all 40ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    filter: blur(3px);
+}
+
+.detailsBlock-FoDTGA .paymentSourceLabel-1z_EVr:hover {
+    transition: all 40ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
+    filter: none;
+    opacity: 1;
+}
+
+/* Links */
+.contents-2MsGLg .anchor-1MIwyf {
+    transition: all 40ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+    filter: blur(3px);
+    opacity: 0.8;
+}
+
+.contents-2MsGLg .anchor-1MIwyf:hover {
+    transition: all 40ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
+    filter: none;
+    opacity: 1;
+}
+/* Connected Accounts */
+.connectionAccountValue-3gVX0m{
+  transition: all 40ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+filter: blur(8px);
+opacity: 0.8;
+}
+.connectionAccountValue-3gVX0m:hover{
+transition: all 40ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
+filter: none;
+opacity: 1;
+}
+/* Authorised Apps Blur */
+.authedApp-1tw-eT {
+  transition: all 40ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+  filter: blur(8px);
+  opacity: 0.8;
+  }
+  .authedApp-1tw-eT:hover {
+    transition: all 40ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
+    filter: none;
+    opacity: 1;
+    }  
+/* Connections Blur */
+.gameName-Uw4dbt {
+  transition: all 40ms cubic-bezier(0.550, 0.085, 0.680, 0.530);
+  filter: blur(8px);
+  opacity: 0.8;
+  }
+.gameName-Uw4dbt:hover {
+  transition: all 40ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
+  filter: none;
+  opacity: 1;
+  }
+  
+#private-channels > .content-2a4AW9 > [role="listitem"]:not(.selected-1-Z6gm):not(#private-channels-0) {
+   filter: blur(3px)
+}
+#private-channels > .content-2a4AW9 > [role="listitem"]:hover:not(#private-channels-0){
+   filter: blur(0);
+   transition: filter .5s
+}
+
+.firstDMSpamBanner-DKjHgv {
+    border-radius: 20px 20px 0px 20px;
+    background-color: transparent;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    bottom: 0;
+    right: 0;
+}
+.actionButtons-tk5wmT > button {
+    transform: translate(-25%, -125%);
+    top:40%!important;
+    left: 50%;
+}
+.actionButtons-tk5wmT > button > div {
+    font-size: 0px;
+}
+.sizeMedium-2bFIHr {
+    min-width: 40px!important;
+}
+.actionButtons-tk5wmT > button.colorRed-rQXKgM::before {
+    font-size: 14px;
+    content: "!";
+}
+.actionButtons-tk5wmT > button.colorGrey-2iAG-B::before {
+    font-size: 14px;
+    content: "!?";
+}
+.actionButtons-tk5wmT > button.colorBrand-I6CyqQ::before {
+    font-size: 14px;
+    content: "✔";
+}
+.firstDMSpamBanner-DKjHgv::before {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    left: 312px!important;
+    position: fixed;
+    display: block;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 70px;
+}
+.firstDMSpamBannerText-1f5M9Z {
+    display: none;
+}
+.firstDMSpamBannerIcon-1IIVEI {
+    position: relative;
+    top: -10%;
+}
+
+/* Content Blur */
+#app-mount div > .backdrop-2ByYRN, .layer-1Ixpg3 {
+    backdrop-filter: blur(5px); /* Customizable Value (the higher the pixel count, the more blur there is) */
+    transition: opacity .5s;
+}
+
+.backdrop-2ByYRN.withLayer-2VVmpp {
+    opacity: 0.5 !important;
+    transition: opacity .5s;
+}
+
+/* Blur spoilers */
+/*blurs spoiler text instead of having a black bar over it*/
+.contents-2MsGLg .spoilerText-27bIiA.hidden-3B-Rum, .contents-2MsGLg .spoilerText-27bIiA.hidden-3B-Rum:hover, .contents-2MsGLg .spoilerText-27bIiA{
+    background:rgb(130,130,130,0.1);
+    /*adds minor grey-ish filter to differentiate spoilted text from normal text*/
+    border-radius: 7px;
+    /*adds rounded edges for the filter described above*/
+  }
+  .contents-2MsGLg .spoilerText-27bIiA.hidden-3B-Rum>.inlineContent-2YnoDy{
+    filter: blur(3px);
+    /*adds blur filter when text is left alone*/
+    opacity: 1;
+    /*makes blurred text fully opaque*/
+  }
+  .contents-2MsGLg .spoilerText-27bIiA.hidden-3B-Rum:hover>.inlineContent-2YnoDy{
+    filter:none;
+    /*removes blur filter on hover*/
+    opacity: 1;
+    /*makes text opacity look like normal, non-spoiled text on hover*/
+  }

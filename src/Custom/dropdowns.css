@@ -1,0 +1,90 @@
+@keyframes popup {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: none;
+    }
+}
+#app-mount .css-gvi9bl-control,
+#app-mount .css-17e1tep-control {
+    font-weight: 500;
+}
+#app-mount .css-gvi9bl-control .css-1fhf191 svg,
+#app-mount .css-17e1tep-control .css-1fhf191 svg {
+    display: none;
+}
+#app-mount .css-gvi9bl-control .css-1fhf191::after,
+#app-mount .css-17e1tep-control .css-1fhf191::after {
+    content: "";
+    position: absolute;
+    background: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 7l5 5 5-5H4z" fill="%23DCDDDE"/></svg>') center/100% no-repeat;
+    width: 20px;
+    height: 20px;
+    right: 7px;
+    top: 11px;
+}
+
+#app-mount .css-17mfgdg-container {
+    font-weight: 500;
+}
+#app-mount .css-17mfgdg-container .css-1fhf191 svg {
+    display: none;
+}
+#app-mount .css-17mfgdg-container .css-1fhf191::after {
+    content: "";
+    position: absolute;
+    background: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 7l5 5 5-5H4z" fill="%23595C61"/></svg>') center/100% no-repeat;
+    width: 20px;
+    height: 20px;
+    right: 7px;
+    top: 11px;
+}
+
+#app-mount .css-6fzn47-control {
+    font-weight: 500;
+}
+#app-mount .css-6fzn47-control .css-1fhf191 svg {
+    display: none;
+}
+#app-mount .css-6fzn47-control .css-1fhf191::after {
+    content: "";
+    position: absolute;
+    background: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 11l5-5 5 5H4z" fill="%23DCDDDE"/></svg>') center/100% no-repeat;
+    width: 20px;
+    height: 20px;
+    right: 7px;
+    top: 11px;
+}
+
+#app-mount .css-3vaxre-menu {
+    background-color: var(--background-secondary);
+    border-color: var(--background-tertiary);
+    border-radius: 0;
+    animation: popup 0.2s ease-out;
+    font-weight: 500;
+}
+
+#app-mount .css-3vaxre-menu .css-1yz4bi9-option {
+    color: var(--interactive-normal);
+    font-weight: 500;
+}
+#app-mount .css-3vaxre-menu .css-rzbxvl-option {
+    background-color: var(--background-secondary-alt);
+    color: var(--interactive-hover);
+    font-weight: 500;
+}
+
+#app-mount .css-3vaxre-menu .css-1ba14n5-option {
+    background-color: var(--background-tertiary);
+    color: var(--text-normal);
+    font-weight: 500;
+}
+#app-mount .css-3vaxre-menu .css-1ba14n5-option::after {
+    content: "";
+    position: absolute;
+    background: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z" fill="%237289DA"/></svg>') center/100% no-repeat;
+    width: 20px;
+    height: 20px;
+    right: 14px;
+}

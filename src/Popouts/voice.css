@@ -1,0 +1,72 @@
+/*Call dock*/
+.wrapper-3t3Yqv {
+	background-color: var(--background-secondary);
+	border-radius: 25px;
+	padding: 0px;
+}
+
+.colorable-3rVGna.white-11auuQ,
+.colorable-3rVGna.white-11auuQ .centerIcon-JYpTUi {
+	color: currentColor;
+}
+
+.colorable-3rVGna.primary-3NQg8g,
+.colorable-3rVGna.primary-3NQg8g.active-3D763s,
+.colorable-3rVGna.primary-3NQg8g:hover,
+.colorable-3rVGna.white-11auuQ,
+.centerButton-1IShs7,
+.colorable-3rVGna.white-11auuQ.active-3D763s,
+.colorable-3rVGna.white-11auuQ:hover,
+.colorable-3rVGna.red-3T8maV {
+	background: none !important;
+}
+
+.bottomControls-31YuPK .controlButton-2PMNom.red-3T8maV path {
+	fill: #ED4245;
+}
+
+.iconWrapper-2awDjA.clickable-ZD7xvu[aria-label="Start Voice Call"] path {
+	fill: #3BA55C;
+}
+
+.button-12Fmur[aria-label="Disconnect"] {
+    color: #ed4245;
+    }
+    
+    .button-12Fmur[aria-label="Disconnect"]:hover {
+    color: #ED4245;
+    }
+    
+    .button-1EGGcP[aria-label="Open Soundboard"] {
+    color: #5865f2;
+    }
+    
+    .button-1EGGcP[aria-label="Open Soundboard"]:hover {
+    color: #5865f2;
+    }
+    
+    .button-1EGGcP[aria-label="Share Your Screen"] {
+    color: #43b581;
+    }
+    
+    .button-1EGGcP[aria-label="Share Your Screen"]:hover {
+    color: #43b581;
+    }
+
+    .pictureInPictureWindow-3ms5Zy{
+        width: 440px;
+        height: 248px;
+        opacity: 60%;
+    }
+    
+    .pictureInPictureWindow-3ms5Zy:hover{
+            opacity: 100%;
+    }
+
+ /* Center Voice Users */
+.voiceUsers-25eR9q {
+    width: 100%; /* probably not needed but i'm adding this for good measure */
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: none; /* also for good measure */
+  }

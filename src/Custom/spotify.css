@@ -1,0 +1,26 @@
+.topSectionSpotify-1lI0-P .assets-3PQvAh img {
+    --props: 1s linear;
+    transition: height var(--props), width var(--props);
+  }
+  .topSectionSpotify-1lI0-P .assets-3PQvAh:hover {
+    left: 55px;
+    bottom: 30px;
+  }
+  .topSectionSpotify-1lI0-P .assets-3PQvAh:hover img {
+    right: 54px;
+    top: 30px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+  }
+  
+  a>.assetsLargeImageUserPopout-pY2WJv[src^="https://i.scdn.co/image/"]{
+  width:50px;
+  height:50px;
+  transition: all 1s;
+  }
+  a>.assetsLargeImageUserPopout-pY2WJv[src^="https://i.scdn.co/image/"]:hover {
+  width:100px;
+  height:100px;
+  transition: all 1s;
+  }

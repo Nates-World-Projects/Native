@@ -1,0 +1,53 @@
+@keyframes warningflash {
+    0% {
+      box-shadow: 0 2px 10px rgba(240,71,71,0.2),0 0 0 2px rgba(240,70,70,0.3);
+    }
+  
+    70% {
+      box-shadow: 0 0 20px 15px rgba(240,71,71,0.1),0 0 0 6px rgba(240,70,70,0.2);
+    }
+  
+    100% {
+      box-shadow: 0 0 20px 15px rgba(240,71,71,0),0 0 0 6px rgba(240,24,70,0.1);
+    }
+  }
+  
+  .theme-light .layer-86YKbF:first-of-type::before {
+    content: "You need to have dark theme enabled for this theme to work properly. To enable it, go into Settings -> Appearance"; /* Warning Text */
+    z-index: 2;
+    background: rgba(0, 0, 0, .5); /* Container color */
+    color: #ffffff; /* Text Color */
+    position: fixed;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    width: 500px;
+    height: 35px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(240, 71, 71, 0.22);
+	animation: warningflash 1s ease infinite;  
+    border: 3px solid #F04747;
+  }
+  
+  .theme-light [aria-controls="appearance-tab"],
+  .theme-light .app-2CXKsg .container-YkUktl > .noWrap-hBpHBz > .button-12Fmur:nth-child(3) {
+    animation: warningflash 1s ease infinite;
+    border: 2px solid #F04747; 
+  } 
+
+    .theme-light .children-1xdcWE > .marginTop40-Q4o1tS:nth-child(2) > div > div[tabindex="-1"]:not(:nth-child(3)) {
+    animation: warningflash 1s ease infinite;
+	border: 2px solid #F04747;
+  }
+
+.theme-light #user-settings-cog-Appearance {
+  animation: warningflash 1s ease infinite;
+  border: 2px solid #F04747!important; 
+}
+.theme-light #user-settings-cog-Appearance--dark {
+  animation: warningflash 1s ease infinite;
+  border: 2px solid #F04747!important; 
+}

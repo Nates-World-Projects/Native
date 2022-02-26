@@ -1,0 +1,39 @@
+/* Better RTC Connection popout */
+.layerContainer-2v_Sit .layer-2aCOJ3[style*="position: absolute; left: 100px;"] {
+    left: 72px !important;
+}
+.container-1ILvLB {
+    width: 240px;
+    box-shadow: none;
+}
+.layerContainer-2v_Sit .layer-2aCOJ3[style*="position: absolute; left: 100px;"] .container-1ILvLB header {
+    background-color: var(--toast-header);
+}
+.layerContainer-2v_Sit .layer-2aCOJ3[style*="position: absolute; left: 100px;"] .container-1ILvLB section {
+    background-color: var(--deprecated-panel-background);
+}
+.container-1ILvLB section p:nth-of-type(1) {
+    font-size: 0;
+}
+.container-1ILvLB section p:nth-of-type(2) {
+    display: none;
+}
+.container-1ILvLB section strong {
+    font-size: 14px;
+    white-space: pre;
+}
+.container-1ILvLB section strong::before {
+    font-weight: normal;
+}
+.container-1ILvLB section strong:nth-of-type(1)::before {
+    content: 'Server: ';
+}
+.container-1ILvLB section strong:nth-of-type(2)::before {
+    content: 'Average Ping: ';
+}
+.container-1ILvLB section strong:nth-of-type(3)::before {
+    content: 'Last Ping: ';
+}
+.container-1ILvLB section strong:nth-of-type(4)::before {
+    content: 'Packet Loss: ';
+}

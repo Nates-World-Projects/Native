@@ -1,0 +1,55 @@
+.container-1eD8xH {
+    background: var(--background-primary);
+    padding: 4px 12px 4px 12px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.container-1eD8xH .divider-1Y1mB0 {
+    display: none;
+}
+
+/* CreArts */
+[aria-label="CreArts | Community (server)"i] .progressBar-1Tzim4 {
+  background: rgba(182,10,74)
+}
+
+[aria-label="CreArts | Community (server)"i] .progressBarContainer-2E4oR-  {
+  background: rgba(182, 10, 74, .5);
+}
+
+[aria-label="CreArts | Laboratory (server)"i] .progressBar-1Tzim4 {
+  background: rgba(182,10,74)
+}
+
+[aria-label="CreArts | Laboratory (server)"i] .progressBarContainer-2E4oR-  {
+  background: rgba(182, 10, 74, .5);
+}
+
+/* Nate's World | Community */
+[aria-label="Nate's World | Community (server)"i] .progressBar-1Tzim4 {
+  background: rgb(96, 10, 182)
+}
+
+[aria-label="Nate's World | Community (server)"i] .progressBarContainer-2E4oR-  {
+  background: rgba(96, 10, 182, .5);
+}
+
+/* Discord Townhall */
+[aria-label="Discord Town Hall (server)"i], [aria-label="Snowsgiving 2021 (server)"i] .progressBar-1Tzim4 {
+  background: rgb(88, 101, 242)
+}
+
+[aria-label="Discord Town Hall (server)"i], [aria-label="Snowsgiving 2021 (server)"i] .progressBarContainer-2E4oR-  {
+  background: rgba(88, 101, 242, .5);
+}
+
+/* Sebi's Townhall */
+/* Discord Townhall */
+[aria-label="Sebi's TownHall (server)"i], [aria-label="Sebi's North Pole (server)"i] .progressBar-1Tzim4 {
+  background: rgb(88, 101, 242)
+}
+
+[aria-label="Sebi's TownHall (server)"i], [aria-label="Sebi's North Pole (server)"i] .progressBarContainer-2E4oR-  {
+  background: rgba(88, 101, 242, .5);
+}

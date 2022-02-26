@@ -14,3 +14,68 @@
     font-size: 12px;
     width: 100%;
   }
+  .ownerIcon-255uKo {
+    margin-left: 4px;
+  }
+  .container-2nx-BQ[style*="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"]{
+    background-color: #c13a3a !important;
+   fill: #c13a3a !important;
+  }
+  .container-2nx-BQ[style*="opacity: 1; background-color: hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"] path{
+    fill: #c13a3a !important;
+  }
+
+/* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                               		Reorder 	                                               ║ */
+/* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                               		User Settings	                                           ║ */
+/* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* [aria-controls="my-account-tab"i] {order: 2} */
+
+/* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                               	  Server Settings	                                       ║ */
+/* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* .header-2RyJ0Y [aria-label="Nate's World | Community"] {order:1}
+[aria-controls="overview-tab"i] {order:0}
+[aria-controls="analytics-tab"i] {order:1}
+[aria-controls="moderation-tab"i] {order: 2 }
+[aria-controls="roles-tab"i] {order: 3}
+[aria-controls="emoji-tab"i] {order: 4}
+[aria-controls="stickers-tab"i] {order: 0}
+[aria-controls="integrations-tab"i] {order: 0}
+[aria-controls="widget-tab"i] {order: 0}
+[aria-controls="guild_templates-tab"] {order: 0}
+[aria-controls="audit_log-tab"i] {order: 9}
+[aria-controls="community-tab"i] {order: 0}
+[aria-controls="discovery-tab"i] {order: 11}
+[aria-controls="partner-tab"i] {order: 12}
+[aria-controls="member_verification-tab"i] {order: 13}
+[aria-controls="community_welcome-tab"i] {order: 14}
+[aria-controls="role_subscriptions-tab"i] {order: 15}
+[aria-controls="members-tab"i] {order: 17}
+[aria-controls="instant_invites-tab"i] {order: 16}
+[aria-controls="bans-tab"i] {order: 0}
+[aria-controls="delete-tab"i] {order: 0}
+*/
+
+/* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                               	Channel Settings		                                   ║ */
+/* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔═══════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                               Server Context Menu	                                       ║ */
+/* ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+
+/* Center About Me Preview */
+.avatarUploader-AF-hm- {margin-left: 80px;}
+.headerTagNoNickname-3tGHj6, .aboutMeTitle-3pjiS7, .fakeActivityTitle-3-_pB_ {text-align: center!important;}
+.customStatus-3XAoF9 {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}

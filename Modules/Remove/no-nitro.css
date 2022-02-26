@@ -1,0 +1,25 @@
+/* Hide nitro icon on banners */
+.bannerPremium-kkSkPv .premiumIconWrapper-32h0Ri {
+  display: none;
+}
+
+/* User Settings */
+.upsellCard-27q57L {display: none;}
+.side-2ur1Qk .item-3XjbnG[aria-controls="connections-tab" i] + .separator-2wx7h6,
+.side-2ur1Qk .item-3XjbnG[aria-controls="connections-tab" i] + .separator-2wx7h6 + .header-2Kx1US,
+.side-2ur1Qk .item-3XjbnG[aria-controls="discord-nitro-tab" i],
+.side-2ur1Qk .item-3XjbnG[aria-controls="nitro-server-boost-tab" i],
+.side-2ur1Qk .item-3XjbnG[aria-controls="library-inventory-tab"i],
+.side-2ur1Qk .item-3XjbnG[aria-controls="billing-tab"i],
+.side-2ur1Qk .item-3XjbnG[aria-controls="subscriptions-tab"i], 
+[id="user-settings-cog-Discord_Nitro"i],
+[id="user-settings-cog-Nitro_Server_Boost"i],
+[id="user-settings-cog-Subscriptions"i],
+[id="user-settings-cog-Library_Inventory"i],
+[id="user-settings-cog-Billing"i]{display: none;}
+
+.children-283-lq {display:none}
+.theme-dark .holidayPromotionSelectedBackground-irywjz, .theme-light .holidayPromotionSelectedBackground-irywjz {
+background: transparent;
+color: var(--interactive-active);
+}

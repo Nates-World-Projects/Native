@@ -1,0 +1,19 @@
+.repliedMessage-3Z6XBG {
+    height: 10px;
+    background-color: var(--background-secondary);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    transition: 300ms background-color;
+    width: min-content;
+    max-width: 800px;
+  }
+  .repliedMessage-3Z6XBG:hover {
+    background-color: var(--background-modifier-hover);
+  }
+  .repliedMessage-3Z6XBG:active {
+    background-color: var(--background-modifier-active);
+  }
+  .repliedMessage-3Z6XBG::before {
+    margin-right: var(--reply-message-margin);
+  }

@@ -1,0 +1,22 @@
+.root-SR8cQa .activity-1ythUs {
+    overflow: auto;
+  }
+  .root-SR8cQa .activity-1ythUs::-webkit-scrollbar {
+    height: 5px;
+  }
+  .root-SR8cQa .activity-1ythUs::-webkit-scrollbar-track {
+    border-radius: 4px;
+    margin-left: 18px;
+    margin-right: 18px;
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+  .root-SR8cQa .activity-1ythUs::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: var(--header-secondary);
+  }
+
+  /* Center Emoji Statuses */
+.customStatus-3XAoF9 > .customStatusEmoji-1bFQdD.customStatusSoloEmoji-2bSRlG:only-child {
+  margin-right: auto;
+  margin-left: auto;
+}

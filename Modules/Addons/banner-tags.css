@@ -1,0 +1,38 @@
+[class*="userPopout-"] .banner-1YaD3N:not(.popoutBannerPremium-3i5EEI):not(.bannerPremium-kkSkPv):before {
+    content: 'Color';
+    padding: 5px;
+    border-radius: var(--radius-secondary, 8px);
+    background: var(--brand-experiment);
+    position: absolute;
+    font-size: 10px !important;
+    font-weight: 600;
+    font-family: var(--font-primary);
+    height: auto;
+    width: auto;
+    color: var(--header-primary);
+    text-transform: uppercase;
+    top: 8px;
+    left: 250px;
+}
+
+[class*="userPopout-"] .popoutBannerPremium-3i5EEI::before {
+    content: 'USRBG';
+    padding: 5px;
+    border-radius: var(--radius-secondary, 8px);
+    background: var(--brand-experiment);
+    position: absolute;
+    font-size: 10px !important;
+    font-weight: 600;
+    font-family: var(--font-primary);
+    height: auto;
+    width: auto;
+    color: var(--header-primary);
+    text-transform: uppercase;
+    top: 8px;
+    left: 250px;
+}
+[class*="userPopout-"] [class*="premiumIconWrapper-"],
+[class*="userPopout-"] [class*="platformIcon-"],
+[class*="userPopout-"] [class*="banner"] div {
+    display: none !important;
+}

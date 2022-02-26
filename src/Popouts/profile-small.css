@@ -1,14 +1,206 @@
-.headerTop-3GPUSF, .headerTextNormal-2mGWX3, .customStatus-oN4ZZY, .aboutMeTitle-3pjiS7 {
-    display: flex;
+@import "https://spinfish.github.io/css-snippets/snippets/filled-roles.css";
+
+/* Backgrounds */
+.aboutMeTitle-3pjiS7 {
+    background: var(--background-secondary);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin: auto auto 5px auto;
+}
+
+.userInfoSectionHeader-2mYYun {
+	text-align: center;
+	width: 132%;
+    background: var(--background-secondary);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin: auto auto 5px auto;
+} 
+
+.userBio-2-tr00 {
+	width: 132%;
+    background: var(--background-tertiary);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin: auto 10px 5px auto;
+} 
+
+.aboutMeBody-1J8rhz {
+    background: var(--background-tertiary);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin: auto auto 5px auto;
+}
+
+.bodyTitle-2Az3VQ {
+    background: var(--background-secondary);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin: auto auto 5px auto;
+}
+
+[class*="rolesList-"] {
+    background: var(--background-tertiary);
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin: auto auto 5px auto;
+}
+
+.note-Go5ZP2 {
+    background: var(--background-tertiary);
+    border-radius: 5px;
+    padding: 5px 0px 0px 10px;
+    margin: auto auto 0px auto;
+} 
+
+.inputDefault-3FGxgL {
+    background: var(--background-tertiary);
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    margin: auto auto 0px auto;
+} 
+
+/* Bubble Roles */
+:root {
+    /** Number of role columns */
+    --roleslist-columns: 2;
+}
+
+[class*="rolesList-"] {
+    display: grid;
+    grid-template-columns: repeat(var(--roleslist-columns), minmax(0, 1fr));
+    background: var(--background-tertiary);
+    padding: 12.5px;
+    gap: 4.5px;
+    border-radius: 8px;
+    max-height: 150px;
+    overflow: auto;
+}
+[class*="rolesList-"]::-webkit-scrollbar {
+    width: 4.5px;
+}
+[class*="rolesList-"]::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: var(--background-modifier-hover);
+}
+[class*="rolesList-"] > [class*="role-"] {
+    margin: 0;
     justify-content: center;
-    text-align: center;
+}
+[class*="rolesList-"] [class*="roleCircle-"] {
+    flex-shrink: 0;
+}
+[class*="rolesList-"] [class*="roleName-"] {
+    margin: auto;
 }
 
-.avatarWrapperNormal-ahVUaC {
+.headerTop-3GPUSF {
+    height: 45px;
+    margin-bottom: 10px;
+    }
+    .headerText-1-WmDq {transform: translateY(-10px);}
+    .headerTop-3GPUSF, .headerTextNormal-Z8we9g, .customStatus-3XAoF9, .aboutMeTitle-3pjiS7{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    .avatarWrapperNormal-ahVUaC {
+      position: absolute;
+      left: 33%;
+    }
+    /* .profileBadges-2pItdR {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      max-height: 100px;
+      transform: translateY(82px);
+      position: absolute;
+    }
+    */
+    .userPopout-2j1gM4 .input-2g-os5, .bodyTitle-2Az3VQ, .marginBottom8-emkd0_.size14-3fJ-ot{
+      text-align: center;
+    }
+
+/* Popout Outline */
+.userPopout-2j1gM4 .banner-1YaD3N {
     position: absolute;
-    left: 33%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    top: -2px;
+    left: -2px;
+    background-size: calc(100% - 4px);
+    background-position: center 2px;
+    border-radius: 10px;
+}
+.userPopout-2j1gM4 .banner-1YaD3N::after {
+    content: '';
+    display: block;
+    background-color: inherit;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    width: 100%;
+    height: 124px;
+    clip-path: path("M 0 0 H 304 V 123 H 302 V 12 Q 302 2 292 2 H 12 Q 2 2 2 12 V 123 H 0 Z");
+}
+.headerTop-3GPUSF, .body-2wLx-E, .footer-3naVBw {
+    background-color: var(--background-floating) !important;
+}
+.avatarPositionNormal-2jWoC2 {top: 16px;}
+.avatarPositionNormal-2jWoC2+.headerTop-3GPUSF {padding-top: 119px;}
+.avatarPositionPremium-1zPBq9+.headerTop-3GPUSF {margin-top: 119px;}
+.avatarPositionNormal-2jWoC2+.headerTop-3GPUSF>.profileBadges-2pItdR {top: 75px;}
+
+/* Popout modal */
+:root {
+    --profile-border-width: 2px
+}
+.root-8LYsGj {
+    padding: var(--profile-border-width);
+    border-radius: 10px;
+}
+.topSection-13QKHs {
+    margin-top: 239px;
+}
+.topSection-13QKHs .banner-1YaD3N {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    background-size: calc(100% - calc(var(--profile-border-width) * 2));
+    background-position: center var(--profile-border-width);
+    z-index: -1;
+}
+.topSection-13QKHs .banner-1YaD3N::after {
+    content: '';
+    margin: calc(var(--profile-border-width) - 2px);
+    display: block;
+    background-color: inherit;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    width: 100%;
+    height: 244px;
+    clip-path: path("M 0 0 V 12 H 2 Q 2 2 12 2 V 0 Z M 604.5 0 V 12 H 602.5 Q 602.5 2 592.5 2 V 0 Z");
+}
+.header-S26rhB {
+    top: -76px;
+}
+.body-1Ukv50 {
+    border-radius: 0 0 8.5px 8.5px;
 }
 
-.userPopout-xaxa6l .input-cIJ7To, .bodyTitle-2Az3VQ, .textarea-_59yqs, .marginBottom8-AtZOdT.size14-e6ZScH {
-    text-align: center;
+/* Unclamp the About Me section, so it's not limited to just 6 lines. (Before it'd cut off at 6 and add a ...) */
+.clamped-2ZePhX{
+    --webkit-line-clamp: 190; /*Maximum amount of characters as new lines, unset just breaks links*/
+    max-height:112px;
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+.clamped-2ZePhX::-webkit-scrollbar {
+  display: block;
+}
+
+.userPopout-2j1gM4 .bodyInnerWrapper-2bQs1k>h3:nth-last-of-type(1),
+.userPopout-2j1gM4 .note-Go5ZP2 {
+    display:none;
 }

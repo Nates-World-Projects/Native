@@ -1,0 +1,51 @@
+:root {
+    --background-mentioned-side: rgb(88, 101, 242);
+    --background-mentioned: rgba(114, 137, 218, 0);
+    --background-mentioned-hover: rgba(114, 137, 218, 0);
+    --replying-side: rgb(2, 183, 87);
+    --replying-default: rgba(2, 183, 87, 0.05);
+    --replying-hovered: rgba(2, 183, 87, 0.12);
+    --local-bot-side: rgb(240, 71, 71); 
+    --local-bot-default: rgba(240, 71, 71, 0.05);
+    --local-bot-hover: rgba(240, 71, 71, 0.12);
+ }
+ 
+ /* Pings. */
+ .mentioned-Tre-dv:not(.replying-eZ7p5z) {
+    background: var(--background-mentioned);
+ }
+ .mentioned-Tre-dv:not(.replying-eZ7p5z)::before {
+    background: var(--background-mentioned-side);
+    border-radius: 50px;
+    width: 5px;
+ }
+ .mentioned-Tre-dv:not(.replying-eZ7p5z):hover {
+    background: var(--background-mentioned-hover);
+ }
+ 
+ /* Replying. */
+ .replying-eZ7p5z {
+    background: var(--replying-default) !important;
+ }
+ .replying-eZ7p5z::before {
+    background: var(--replying-side);
+    border-radius: 50px;
+    width: 5px;
+ }
+ .replying-eZ7p5z:hover {
+    background: var(--replying-hovered) !important;
+ }
+ 
+
+ /*revert mention colors*/
+.wrapper-3WhCwL,.mentioned-xhSam7 .mention{
+   color:#5865f2 !important;
+   background:rgba(114,137,218,.1) !important;
+   border-radius: 3px;
+   padding: 0 2px;
+   font-weight: 500;
+ }
+ .wrapper-3WhCwL:hover,.mentioned-xhSam7 .mention:hover{
+   color:#fff !important;
+   background-color:#5865f2 !important;
+ }

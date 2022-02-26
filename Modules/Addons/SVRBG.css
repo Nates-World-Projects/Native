@@ -1,0 +1,57 @@
+/* Import the Banners */
+@import url("https://therealgwjosh.github.io/BannerBG/src/banners.css");
+
+:root {
+
+	--BannerBG-Header-Height: block;
+	--BannerBG-Header-Padding: 16px;
+	--BannerBG-Header-Box-Shadow: revert;	
+
+	--BannerBG-Server-Banner: block;
+	--BannerBG-Server-Width: block;
+	--BannerBG-Server-Height: block;
+	--BannerBG-Server-Top: block;
+	--BannerBG-Server-Left: block;
+	--BannerBG-Server-Z-Index: block;
+	--BannerBG-Server-Position: block;
+
+}
+
+/* BannerBG Main Code */
+[class*="container-3w7J-x"] [class*="header-2V-4Sw"] {
+	height: var(--BannerBG-Header-Height);
+	padding: var(--BannerBG-Header-Padding);
+	box-shadow: var(--BannerBG-Header-Box-Shadow);
+	align-items: flex-start;
+}
+
+[class*="container-3w7J-x"] [class*="header-2V-4Sw"]::before {
+	content: "";
+	position: var(--BannerBG-Server-Position);
+	top: var(--BannerBG-Server-Top);
+	left: var(--BannerBG-Server-Left);
+	z-index: var(--BannerBG-Server-Z-Index);
+	width: var(--BannerBG-Server-Width);
+	height: var(--BannerBG-Server-Height);
+	background: var(--BannerBG-Server-Banner) center/cover no-repeat;
+	-webkit-mask: linear-gradient(var(--background-secondary), transparent);
+}
+
+/* Shrink server banners to header instead of disappearing. */
+[class*="animatedContainer-"] {
+	opacity: 1 !important;
+	transition: opacity .5s;
+}
+
+[class*="animatedContainer-"] > [class*="bannerImage-"] {
+	transition: margin .5s;
+}
+
+:not([class*="bannerVisible-"]) > [class*="animatedContainer-"] {
+	opacity: .35 !important;
+	height: 138px;
+}
+
+:not([class*="bannerVisible-"]) > [class*="animatedContainer-"] > [class*="bannerImage-"] {
+	margin-top: -12px;
+}

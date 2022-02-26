@@ -1,0 +1,12 @@
+/* Notification Settings */
+.iconWrapper-2awDjA[aria-label="notification settings"i]{display: none;}
+[aria-controls="notifications-tab"i] {display:none;}
+[id="user-settings-cog-notifications"i] {display: none;}
+
+/* Keybinds */
+[aria-controls="keybinds-tab"i] {display: none;}
+[id="user-settings-cog-Keybinds"i] {display: none;}
+
+/* Language */ 
+[aria-controls="language-tab"i] {display: none;}
+[id="user-settings-cog-language"i] {display: none;}

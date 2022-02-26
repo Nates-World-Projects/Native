@@ -1,0 +1,40 @@
+@import url("https://nates-world-projects.github.io/Native/Modules/Addons/Revert/connections.css");
+
+/* Order Connections */
+.connectedAccounts-26X_gr .accountBtn-1YkMgV:nth-child(1) {order: 8;}
+.connectedAccounts-26X_gr .accountBtn-1YkMgV:nth-child(2) {order: 4;}
+.connectedAccounts-26X_gr .accountBtn-1YkMgV:nth-child(3) {order: 7;}
+.connectedAccounts-26X_gr .accountBtn-1YkMgV:nth-child(4) {order: 11;}
+.connectedAccounts-26X_gr .accountBtn-1YkMgV:nth-child(5) {order: 6;}
+.connectedAccounts-26X_gr .accountBtn-1YkMgV:nth-child(6) {order: 1;}
+.connectedAccounts-26X_gr .accountBtn-1YkMgV:nth-child(7) {order: 9;}
+.connectedAccounts-26X_gr .accountBtn-1YkMgV:nth-child(8) {order: 3;}
+.connectedAccounts-26X_gr .accountBtn-1YkMgV:nth-child(9) {order: 5;}
+.connectedAccounts-26X_gr .accountBtn-1YkMgV:nth-child(10) {order: 9;}
+.connectedAccounts-26X_gr .accountBtn-1YkMgV:nth-child(11) {order: 2; margin-right: 7px;}
+
+/* Center Connections */
+/* Center Connection Text */
+.sectionTitle-3j2YI1>h1:nth-child(2) {
+    text-align: center;
+    }
+    
+    /* Center Connection Buttons */
+    .accountList-305sx3 {
+    justify-content: center;
+    justify-self: center;
+    width: 400px;
+    margin-left: 170px;
+    }
+    .connectedAccounts-26X_gr {
+      margin: auto;
+      justify-content: center;
+    }
+    
+    
+    /* Center Connected Accounts */
+    .connectionList-1NoxUk {
+    margin-left: 170px;
+    width: 400px;
+    }
+    

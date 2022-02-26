@@ -1,0 +1,41 @@
+/* Uploads */
+.upload-3GTSF9
+{
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.filename-3PA55E
+{
+    width: 100px;
+    margin-top: 0px;
+}
+
+.upload-3GTSF9
+{
+    padding: 4px;
+}
+
+.image-2dAEjD
+{
+    max-height: 180px;
+}
+
+.channelAttachmentArea-1wlgJV
+{
+    align-items: center;
+}
+
+@keyframes expand_attachment_area {
+    from {
+        height: 0;
+    }
+    to {
+        height: 218px;
+    }
+}
+ul[class*="channelAttachmentArea-"] {
+    animation-name: expand_attachment_area;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}

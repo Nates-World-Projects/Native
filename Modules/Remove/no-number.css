@@ -1,0 +1,11 @@
+.accountProfileCard-lbN7n- .field-21XZwa:last-child .size16-rrJ6ag {
+  --no-phone-number-text: 'Nothing to see here!';
+  color: transparent;
+}
+.accountProfileCard-lbN7n- .field-21XZwa:last-child .size16-rrJ6ag::before {
+  color: var(--header-primary);
+  content: var(--no-phone-number-text, '************');
+}
+.accountProfileCard-lbN7n- .field-21XZwa:last-child .size16-rrJ6ag > .lookLink-15mFoz {
+  transform: translateX(-88px);
+}

@@ -1,0 +1,173 @@
+.theme-light .connectionAccountValue-3gVX0m,
+.theme-light .connectionOptionSwitch-FwkEHS .subEnabledTitle-2MHkAH {
+  color: #ffffff;
+}
+
+.theme-light .connectionAccountLabel-HkwS6X {
+  color: #b9bbbe;
+}
+
+.theme-light .connectionDelete-XXTMqE svg path {
+  fill: #f1f1f1;
+}
+
+.theme-light .connectionDelete-XXTMqE:hover svg path {
+  fill: #ffffff;
+}
+
+.connectionAccountLabel-HkwS6X {
+  visibility: hidden;
+}
+
+.connectionAccountLabel-HkwS6X::before {
+  visibility: visible;
+  content: "Account Name";
+}
+
+.connectionDelete-XXTMqE {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border: #fff5 1px solid;
+  border-radius: 4px;
+}
+
+.connectionDelete-XXTMqE svg {
+  margin: 0 auto;
+  display: block;
+  width: 18px;
+  height: 18px;
+  color: #b9bbbe;
+}
+
+.connection-107AGH {
+  z-index: 0;
+  overflow: hidden;
+  margin-bottom: -10px;
+}
+
+.connection-107AGH .container-2nx-BQ:not([style*="125"]) {
+  background-color: #fff5 !important;
+}
+
+.connection-107AGH .container-2nx-BQ[style*="125"] {
+  background-color: #0003 !important;
+}
+
+.connection-107AGH svg.slider-32CRPX svg {
+  display: none;
+}
+
+.connectionHeader-2rV1ze {
+  background: #0002;
+  border-bottom: #0003 1px solid;
+}
+
+.connectionHeader-2rV1ze > img + *::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  pointer-events: none;
+  width: 100%;
+  height: 10000000px;
+  background-color: var(--connection-color);
+}
+
+img[alt*="Battle.net"] + * {
+  --connection-color: #009ae4;
+}
+
+img[alt*="Facebook"] + * {
+  --connection-color: #3d4e84;
+}
+
+img[alt*="GitHub"] + * {
+  --connection-color: #191717;
+}
+
+img[alt*="League of Legends"] + * {
+  --connection-color: #ae914b;
+}
+
+img[alt*="Reddit"] + * {
+  --connection-color: #ec5528;
+}
+
+img[alt*="Spotify"] + * {
+  --connection-color: #1db954;
+}
+
+img[alt*="Skype"] + * {
+  --connection-color: #009dd7;
+}
+
+img[alt*="Steam"] + * {
+  --connection-color: #171a21;
+}
+
+img[alt*="Twitch"] + * {
+  --connection-color: #593695;
+}
+
+img[alt*="Twitter"] + * {
+  --connection-color: #1da1f2;
+}
+
+img[alt*="YouTube"] + * {
+  --connection-color: #ba342b;
+}
+
+img[alt*="Xbox Live"] + * {
+  --connection-color: #0e6f0e;
+}
+
+.connectionIcon-3nqZDW[alt*="Battle.net"] {
+  content: url("https://discord.com/assets/3a257c4cab129e956b05bd50047eb0f9.png");
+}
+
+.connectionIcon-3nqZDW[alt*="Facebook"] {
+  content: url("https://discord.com/assets/c926e69c482dac25b8e940db74496813.png");
+}
+
+.connectionIcon-3nqZDW[alt*="GitHub"] {
+  content: url("https://discord.com/assets/9e2893717851c493b4bff518f8b63ee7.png");
+}
+
+.connectionIcon-3nqZDW[alt*="League of Legends"] {
+  content: url("https://discord.com/assets/fbbd224a0d94747c102515090682bbe1.png");
+}
+
+.connectionIcon-3nqZDW[alt*="Reddit"] {
+  content: url("https://discord.com/assets/bcc7bc0c0b27f9cbadaa1a47ea79db22.png");
+}
+
+.connectionIcon-3nqZDW[alt*="Spotify"] {
+  content: url("https://discord.com/assets/fe3770614c2658a07dea3ecb286ce745.png");
+}
+
+.connectionIcon-3nqZDW[alt*="Skype"] {
+  content: url("https://discord.com/assets/de5fb9e860729912c65048c1c657e1a3.png");
+}
+
+.connectionIcon-3nqZDW[alt*="Steam"] {
+  content: url("https://discord.com/assets/baf4bdd36b7ef74e8f34b402e66f81f4.png");
+}
+
+.connectionIcon-3nqZDW[alt*="Twitch"] {
+  content: url("https://discord.com/assets/4c1bab3f945269a5c1be0b3a2c177141.png");
+}
+
+.connectionIcon-3nqZDW[alt*="Twitter"] {
+  content: url("https://discord.com/assets/2ac50d286a1c883f28b5149239a8ad36.png");
+}
+
+.connectionIcon-3nqZDW[alt*="YouTube"] {
+  content: url("https://discord.com/assets/0ef81742942677bcef0bebdfb7061d29.png");
+}
+
+.connectionIcon-3nqZDW[alt*="Xbox Live"] {
+  content: url("https://discord.com/assets/850ed4fcf5839b7a32651f5959e8511e.png");
+}

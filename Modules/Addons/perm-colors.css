@@ -1,0 +1,21 @@
+/* Colorful Permissions */
+/* Permissons (Red) */
+.deny-1GO6vI {color: #F04747;}
+
+.deny-1GO6vI:hover {background: #F04747 !important; color: white;}
+.deny-1GO6vI.selected-3jieYB {background: #F04747 !important;}
+.deny-1GO6vI.selected-3jieYB:hover {background: #FF6660 !important;}
+
+/* Permissons (Yellow) */
+.passthrough--fbdFR {color: #FAA61A;}
+
+.passthrough--fbdFR:hover {background: #FAA61A !important; color: white;}
+.passthrough--fbdFR.selected-3jieYB {background: #FAA61A !important;}
+.passthrough--fbdFR.selected-3jieYB:hover {background: #FFC23D !important;}
+
+/* Permissons (Green) */
+.allow-1h61-Z {color: #43B581;}
+
+.allow-1h61-Z:hover {background: #43B581 !important; color: white;}
+.allow-1h61-Z.selected-3jieYB {background: #43B581 !important;}
+.allow-1h61-Z.selected-3jieYB:hover {background: #61D09A !important;}

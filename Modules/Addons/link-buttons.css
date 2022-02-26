@@ -1,0 +1,18 @@
+.messageContent-2t3eCI a[href*="discord.com/"]::before {
+    content: 'Jump to Discord';
+    color: #fff !important;
+    background: var(--brand-experiment);
+    border-radius: var(--radius-tertiary);
+    height: 32px;
+    min-width: 62px;
+    min-height: 32px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 16px !important;
+    line-height: 10px;
+}
+
+.messageContent-2t3eCI a[href*="discord.com/"] {
+    line-height: 0;
+    font-size: 0;
+}

@@ -1,0 +1,166 @@
+[aria-label="images (channel)"], [aria-label="media (channel)"] .container-1yy5xN {
+    display: none;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .divider-IqmEqJ {
+    display: none;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .buttonContainer-1502pf {
+    display: none;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .removeAttachmentButton-1iO1qS {
+    display: none;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .scrollerInner-2PPAp2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 20px;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .container-2sjPya {
+    grid-row-gap: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .messageListItem-ZZ7v6g {
+    overflow: hidden !important;
+    background: black;
+    margin-top: 12px;
+    border-radius: 20px;
+    min-height: 250px;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .message-2CShn3 {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .imageWrapper-oMkQl4 {
+    min-width: 100% !important;
+    min-height: 100% !important;
+}
+[aria-label="images (channel)"] .contents-2MsGLg {
+    position: absolute;
+    z-index: 9;
+    opacity: 0;
+    width: 100%;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .messageListItem-ZZ7v6g:hover .contents-2MsGLg {
+    opacity: 1;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .avatar-2e8lTP {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .header-2jRmjb {
+    position: absolute;
+    padding: 0px 6px 0px 6px;
+    border-radius: 8px;
+    top: 12px;
+    left: 46px;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .username-h_Y3Us {
+    color: white !important;
+}
+[aria-label="images (channel)"] , [aria-label="media (channel)"].messageContent-2t3eCI {
+    background: rgba(0, 0, 0, 0.600);
+    padding: 6px;
+    border-radius: 8px;
+    top: 80px;
+    margin: 0px 20px 0px 20px !important;
+    height: 70px;
+    overflow: overlay;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .timestamp-p1Df1m {
+    display: none;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .message-2CShn3 ::-webkit-scrollbar {
+    display: none;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .reactions-1BUEKl {
+    position: absolute;
+    top: 44px;
+    left: 20px;
+    opacity: 0;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .messageListItem-ZZ7v6g:hover .reactions-1BUEKl {
+    opacity: 1;
+}
+[aria-label="media (channel)"] .reactions-1BUEKl > div:nth-child(4), [aria-label="media (channel)"] .reactions-1BUEKl > div:nth-child(5), [aria-label="media (channel)"] .reactions-1BUEKl > div:nth-child(6), [aria-label="media (channel)"] .reactions-1BUEKl > div:nth-child(7), [aria-label="media (channel)"] .reactions-1BUEKl > div:nth-child(8), [aria-label="media (channel)"] .reactions-1BUEKl > div:nth-child(9), [aria-label="media (channel)"] .reactions-1BUEKl > div:nth-child(10), [aria-label="media (channel)"] .reactions-1BUEKl > div:nth-child(11), [aria-label="media (channel)"] .reactions-1BUEKl > div:nth-child(12), [aria-label="media (channel)"] .reactions-1BUEKl > div:nth-child(13), [aria-label="media (channel)"] .reactions-1BUEKl > div:nth-child(14), [aria-label="media (channel)"] .reactions-1BUEKl > div:nth-child(15), [aria-label="media (channel)"] .reactions-1BUEKl > div:nth-child(16), [aria-label="media (channel)"] .reactions-1BUEKl > div:nth-child(17), [aria-label="media (channel)"] .reactions-1BUEKl > div:nth-child(18), [aria-label="media (channel)"] .reactions-1BUEKl > div:nth-child(19), [aria-label="media (channel)"] .reactions-1BUEKl > div:nth-child(20) {
+    display: none !important;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .reaction-2A2y9y.reactionMe-3I9gFK {
+    background: rgba(0, 0, 0, 0.600);
+    border: none;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .messageAttachment-CZp8Iv .imageWrapper-oMkQl4 {
+    width: 100% !important;
+    height: 100% !important;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .messageAttachment-CZp8Iv img {
+    object-fit: cover;
+    width: 100% !important;
+    height: 100% !important;
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .messageListItem-ZZ7v6g:hover .messageAttachment-CZp8Iv:nth-child(1) img {
+    filter: brightness(40%);
+    -webkit-filter: brightness(40%);
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .messageAttachment-CZp8Iv:nth-child(2) img:hover, [aria-label="images (channel)"], [aria-label="media (channel)"] .messageAttachment-CZp8Iv:nth-child(3) img:hover, [aria-label="images (channel)"], [aria-label="media (channel)"] .messageAttachment-CZp8Iv:nth-child(4) img:hover {
+    filter: brightness(40%);
+    -webkit-filter: brightness(40%);
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .messageAttachment-CZp8Iv:nth-child(1) {
+    height: 250px !important;
+    width: 100% !important;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .messageAttachment-CZp8Iv:nth-child(2) {
+    position: absolute;
+    width: 20% !important;
+    height: 20% !important;
+    bottom: 20px;
+    left: 20px;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .messageAttachment-CZp8Iv:nth-child(3) {
+    position: absolute;
+    width: 20% !important;
+    height: 20% !important;
+    bottom: 20px;
+    left: 80px;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .messageAttachment-CZp8Iv:nth-child(4) {
+    position: absolute;
+    width: 20% !important;
+    height: 20% !important;
+    bottom: 20px;
+    left: 140px;
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .messageAttachment-CZp8Iv:nth-child(2) .imageWrapper-oMkQl4, [aria-label="images (channel)"] .messageAttachment-CZp8Iv:nth-child(3) .imageWrapper-oMkQl4, [aria-label="images (channel)"] .messageAttachment-CZp8Iv:nth-child(4) .imageWrapper-oMkQl4 {
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.500);
+}
+[aria-label="images (channel)"], [aria-label="media (channel)"] .messageListItem-ZZ7v6g:hover .messageAttachment-CZp8Iv:nth-child(2), [aria-label="images (channel)"], [aria-label="media (channel)"] .messageListItem-ZZ7v6g:hover .messageAttachment-CZp8Iv:nth-child(3), [aria-label="images (channel)"], [aria-label="media (channel)"] .messageListItem-ZZ7v6g:hover .messageAttachment-CZp8Iv:nth-child(4) {
+    opacity: 1;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}

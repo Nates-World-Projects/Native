@@ -1,0 +1,37 @@
+/* Sidebar Right 0 - 1200 */
+@media screen and (min-width: 0px) and (max-width: 1200px) {
+    .membersWrap-3NUR2t { display: none;}
+    .selected-29KTGM { display: none;}
+    .toolbar-3_r2xA .clickable-ZD7xvu:nth-last-child(4) { display: none;}
+  }
+  
+  /* Sidebar Left 1001 - 1200 */
+  @media screen and (min-width: 1001px) and (max-width: 1200px) {
+    .sidebar-1tnWFu,
+    .sidebar-1tnWFu .thin-31rlnD { width: 200px !important;}
+    .panels-3wFtMD .nameTag-sc-gpq { display: none;}
+    .panels-3wFtMD  .avatarWrapper-1B9FTW { margin-right: 20px;}
+  } 
+  
+  /* Sidebar Left 941 - 1000 */
+  @media screen and (min-width: 941px) and (max-width: 1000px) {
+    .panels-3wFtMD  { position: fixed; bottom: -999px;}
+    .chat-2ZfjoI { margin-left: 0px;}
+    .sidebar-1tnWFu { width: 0px;}
+    .sidebar-1tnWFu .thin-31rlnD { display: none;}
+    .sidebar-1tnWFu  { padding: 0px !important;}
+    .toolbar-3_r2xA { display: none;}
+    .children-3xh0VB { margin-right: 10px;}
+  }
+  
+  /* Sidebar Left 0 - 940 */
+  @media screen and (min-width: 0px) and (max-width: 940px) {
+    .panels-3wFtMD  { position: fixed; bottom: -999px;}
+    .chat-2ZfjoI { margin-left: 0px;}
+    .sidebar-1tnWFu { width: 0px;}
+    .sidebar-1tnWFu .thin-31rlnD { display: none;}
+    .sidebar-1tnWFu  { padding: 0px !important;}
+    .toolbar-3_r2xA { display: none;}
+    .children-3xh0VB { margin-right: 10px;}
+    .wrapper-1_HaEi { display: none;}
+  }    

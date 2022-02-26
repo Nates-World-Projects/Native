@@ -73,3 +73,28 @@
     bottom: 0px !important;
     left: calc(var(--layout-margin-right) + var(--layout-width-members) + var(--layout) + var(--layout)) !important;
 }
+
+/* Fix Fequently Used Text */
+
+[lang="en-GB"] .categorySection-3j71bm:nth-child(2) .interactive-MpGq2z:hover:hover .headerLabel-1g790w::after,
+[lang="en-US"] .categorySection-3j71bm:nth-child(2) .interactive-MpGq2z:hover:hover .headerLabel-1g790w::after{
+color: var(--interactive-active) !important;
+}
+
+[lang="en-GB"] .categorySection-3j71bm:nth-child(2) .headerLabel-1g790w,
+[lang="en-US"] .categorySection-3j71bm:nth-child(2) .headerLabel-1g790w {
+  color: transparent;
+  max-width: 60% !important;
+}
+
+[lang="en-GB"] .categorySection-3j71bm:nth-child(2) .headerLabel-1g790w::after,
+[lang="en-US"] .categorySection-3j71bm:nth-child(2) .headerLabel-1g790w::after {
+  content: "Recently Used";
+  color: var(--header-secondary);
+  position: absolute;
+  left: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  -webkit-transition: color .125s;
+  transition: color .125s;
+}
