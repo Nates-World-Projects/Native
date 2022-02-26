@@ -17,7 +17,7 @@
 /* ║ General             ║ Here you can make general adjustments.                                                ║ */
 /* ╚═════════════════════╩═══════════════════════════════════════════════════════════════════════════════════════╝ */
 :root {
-	--dark-theme-blur: rgb(0, 0, 0, .5);
+	--dark-theme-blur: rgb(0, 0, 0, 1);
 	/* Do not change!!! */
 	--white-theme-blur: rgba(0, 0, 0, 0);
 	/* Do not change!!! */
