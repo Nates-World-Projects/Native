@@ -5,3 +5,25 @@
 .searchBarComponent-3N7dCG {
     font-weight: 900 !important;
     }
+
+.searchBar-jGtisZ{
+    width: 28px;
+    background-color:transparent;
+}
+      
+.iconContainer-1RqWJj {
+    transform: scale(1.2);
+}
+      
+.iconContainer-1RqWJj path {
+    fill: var(--interactive-normal);
+}
+      
+.iconContainer-1RqWJj:hover path {
+    fill: var(--interactive-active);
+}
+      
+.focused-1xh-wG .searchBar-jGtisZ,.searchBar-jGtisZ:hover, .open-1F8u2c .searchBar-jGtisZ {
+    width: 240px;
+    background-color: var(--background-tertiary);
+}
