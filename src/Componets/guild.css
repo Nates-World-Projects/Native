@@ -14,3 +14,8 @@
 .circleIconButton-1VxDrg.selected-2r1Hvo {
     background: var(--brand-experiment);
 }
+
+.slowModeIcon-35Psjn{
+    order: -1;
+    margin-right: 5px;
+    }
