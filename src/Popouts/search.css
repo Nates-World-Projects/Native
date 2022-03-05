@@ -1,5 +1,17 @@
 @import url("https://nates-world-projects.github.io/Native/src/Custom/search-dms.css");
 
+:root {--radius: 50px;}
+
+.searchBar-2aylmZ, .searchBar-jGtisZ, .colorDefault-CDqZdO {
+  border-radius: var(--radius) !important;
+}
+.searchBar-jGtisZ, .colorDefault-CDqZdO {
+  border-radius: var(--radius) !important;
+}
+.searchBox-pyIJJj, .colorDefault-CDqZdO {
+  border-radius: var(--radius) !important;
+}
+
 .searchLearnMore-1gNL3A {display: none;}
 .searchIcon-1a1-yA, [class*="iconLayout"] { order: -1 }
 .searchBarComponent-3N7dCG {
