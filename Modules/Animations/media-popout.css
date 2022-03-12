@@ -1,0 +1,18 @@
+.modal-3Crloo .wrapper-2bCXfR {
+    opacity: 0;
+    animation: mediapopup 190ms ease-out forwards;
+    animation-delay: 80ms;
+}
+@keyframes mediapopup {
+    0% {
+        transform: scale(0.65);
+    }
+    70% {
+        opacity: 1;
+        transform: scale(1.012);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

@@ -2,6 +2,9 @@
 // ║ Scrollbars               ║ Color                                                                                   ║
 // ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
 */
+
+* {scroll-behavior: smooth;}
+
 ::-webkit-scrollbar {
   width: 15px;
   border-radius: 25px;
