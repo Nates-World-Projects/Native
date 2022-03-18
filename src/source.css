@@ -271,4 +271,5 @@
 /* ║ ⚠️ Do not comment out these lines! By disabling the theme can not work correctly.              ║ */
 /* ╚════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-@import url("https://nates-world-projects.github.io/Native/Modules/Splash/default.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Splash/Web/Discord/splash.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Splash/App/Discord/splash.css");
