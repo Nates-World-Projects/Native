@@ -71,3 +71,13 @@ background-color: var(--background-secondary);
 .tabs-1RhQha {justify-content: center;}
 .name-3YKhmS{ text-align: center; }
 .membersGroup-2eiWxl .container-q97qHp {align-content: center;}
+
+/* Move Unread Icon */
+.barButtonIcon-bMvzp2 {
+  order: -1;
+  margin-left: 0px;
+  margin-right: 2px;
+}
+
+/* Recolor Mention Toggle */
+.mentionButton-3C5YMI {color: #5865f2 !important;}

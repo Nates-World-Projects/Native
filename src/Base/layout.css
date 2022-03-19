@@ -153,7 +153,7 @@ ul.tree-3agP2X:focus {
 */
 
 /* Background */
-.channelNotice-K4UfZY {
+.channelNotice-3CfHGl {
 	background: var(--background-secondary);
 	border-radius: var(--radius-primary);
 	margin: var(--layout) 0px var(--layout) 0px;
@@ -161,19 +161,21 @@ ul.tree-3agP2X:focus {
 }
 
 /* Normal */
-.channelNotice-K4UfZY .textBlock-3rqvcj:first-child,
-.channelNotice-K4UfZY .button-f2h6uQ {
+.channelNotice-3CfHGl .textBlock-3rqvcj:first-child,
+.channelNotice-3CfHGl .button-f2h6uQ {
 	display: none;
 }
 
 /* Hover */
-.channelNotice-K4UfZY:hover .textBlock-3rqvcj:first-child {
+.channelNotice-3CfHGl:hover .textBlock-3rqvcj:first-child {
 	display: flex;
 }
 
-.channelNotice-K4UfZY:hover .button-f2h6uQ {
+.channelNotice-3CfHGl:hover .button-f2h6uQ {
 	display: block;
 }
+
+.closeIcon-38dRRt, .closeButton-PCZcma path {fill: #F04747;}
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 // ║ Layout                   ║ Sidebar (Channels)                                                                      ║

@@ -15,3 +15,14 @@
       transform: translateY(0px);
     }
   }
+
+.modeConnected-NrO4cP .icon-2W8DHg,
+.modeConnected-NrO4cP:hover .icon-2W8DHg,
+.modeSelected-3DmyhH .icon-2W8DHg,
+.modeSelected-3DmyhH:hover .icon-2W8DHg,
+.modeUnread-3Cxepe .icon-2W8DHg,
+.modeUnread-3Cxepe:hover .icon-2W8DHg,
+.notInteractive-2tFrlE.modeConnected-NrO4cP .icon-2W8DHg,
+.notInteractive-2tFrlE.modeSelected-3DmyhH .icon-2W8DHg {
+    color: var(--interactive-active);
+}
