@@ -79,5 +79,8 @@ background-color: var(--background-secondary);
   margin-right: 2px;
 }
 
+/* Move RPC Icon */
+.icon-Lupfh- {order: -1;}
+
 /* Recolor Mention Toggle */
 .mentionButton-3C5YMI {color: #5865f2 !important;}
