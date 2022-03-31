@@ -8,3 +8,27 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+[aria-label="CorellanStoma"] .aboutMeSection-PUghFQ::after {
+	content: "";
+	display: block;
+	position: relative;
+	background: url("https://corellanstoma-github-readme-stats.vercel.app/api?username=CorellanStoma&custom_title=My Stats&show_icons=true&hide_border=true&bg_color=202225&title_color=CD0952&text_color=C0C6DB&icon_color=CD0952&border_radius=12&role=OWNER,COLLABORATOR") center/cover no-repeat;
+	width: 100%;
+	height: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.container-1NXEtd[aria-label="Nate's World (server)"]::after {
+  content: "";
+  display: block;
+  position: relative;
+  background-image: url("https://github-readme-stats.vercel.app/api?username=Nates-World&custom_title=GitHub:&show_icons=true&hide_border=true&bg_color=2f3136&title_color=ffffff&text_color=b9bbbe&icon_color=5865f2&border_radius=10&role=OWNER,COLLABORATOR");
+  width: 100%;
+  height: 200px;
+  background-position: -8px -40px;
+  background-color: var(--background-secondary);
+  margin-top: var(--layout-margin);
+  border-radius: var(--radius-primary);
+}
