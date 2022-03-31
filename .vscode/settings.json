@@ -1,24 +1,17 @@
-{
-    "liveSassCompile.settings.formats":[
-       {
-           "format": "compressed",
-           "extensionName": ".css",
-           "savePath": null
-       }
-   ],
+// CSS
+"css.hover.references": false,
+"css.lint.universalSelector": "warning",
 
-   "liveSassCompile.settings.excludeList": [
-    "/.VSCodeCounter/**",
-    "/.vscode/**",
-    "/dev.scss",
-   ],
-
-   "liveSassCompile.settings.generateMap": false,
-   "liveSassCompile.settings.autoprefix": [
-       "defaults"
-   ]
-}
-
-// expanded
-// compressed
-// nested
+// SCSS
+"liveSassCompile.settings.generateMap": false,
+"liveSassCompile.settings.watchOnLaunch": true,
+"liveSassCompile.settings.autoprefix": ["defaults"],
+"liveSassCompile.settings.showOutputWindowOn": "Warning",
+"liveSassCompile.settings.formats": [
+    {
+        "format": "compressed",
+        "extensionName": ".css",
+        "savePath": null
+    }
+],
+"liveSassCompile.settings.excludeList": ["/.VSCodeCounter/**", "/.vscode/**", "/.sorting/**", "/dev.scss"]
