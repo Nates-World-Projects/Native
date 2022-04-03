@@ -45,16 +45,3 @@
 	margin-top: var(--layout-margin);
 	border-radius: var(--radius-primary);
   }
-  
-  .container-1NXEtd[aria-label="Favorites (server)"]::after {
-	content: "";
-	display: block;
-	position: relative;
-	background-image: url("https://github-readme-stats.vercel.app/api?username=Nates-World&custom_title=GitHub:&show_icons=true&hide_border=true&bg_color=2f3136&title_color=ffffff&text_color=b9bbbe&icon_color=5865f2&border_radius=10&role=OWNER,COLLABORATOR");
-	width: 100%;
-	height: 350px;
-	background-position: -8px -40px;
-	background-color: var(--background-secondary);
-	margin-top: var(--layout-margin);
-	border-radius: var(--radius-primary);
-  }
