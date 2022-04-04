@@ -1,4 +1,15 @@
 /* Banner */
+.bannerVisible-Vkyg1I .header-3OsQeK {
+    height: 135px !important;
+    padding-bottom: 100px;
+  }
+  
+  /* Remove */
+  .scroller-1ox3I2 [style="height: 84px;"] {
+    display: none !important;
+  }
+
+/* Banner */
 .container-1NXEtd[aria-label*="CreArts | Community"] .header-3OsQeK::before {
     position: absolute;
     content: "";
