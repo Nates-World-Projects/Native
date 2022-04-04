@@ -7,7 +7,7 @@ $RECYCLE.BIN/
 .history/
 .ionide/
 .idea/
-.Dev/testing.css
+src/Custom/personal.css
 
 # ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
 # ║ Gitignore                ║ Files                                                                                   ║
