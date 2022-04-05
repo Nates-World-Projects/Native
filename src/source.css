@@ -235,12 +235,53 @@
 @import url("https://nates-world-projects.github.io/Native/Modules/Animations/upload.css");
 
 /* ╔════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                           Effects                                              ║ */
+/* ╠════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ ⚠️ Do not comment out these lines! By disabling the theme can not work correctly.              ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Effects/confetti.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Effects/leaves.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Effects/none.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Effects/rain.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Effects/snow.css"); */
+
+/* ╔════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                           Events                                               ║ */
+/* ╠════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ ⚠️ Do not comment out these lines! By disabling the theme can not work correctly.              ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Events/christmas.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Events/easter.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Events/thanksgiving.css"); */
+
+/* ╔════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                           Fonts                                                ║ */
+/* ╠════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ ⚠️ Do not comment out these lines! By disabling the theme can not work correctly.              ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Fonts/normal.css"); */
+
+/* ╔════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║                                         Modification                                           ║ */
 /* ╠════════════════════════════════════════════════════════════════════════════════════════════════╣ */
 /* ║ ⚠️ Do not comment out these lines! By disabling the theme can not work correctly.              ║ */
 /* ╚════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 @import url("https://nates-world-projects.github.io/Native/Modules/Modification/powercord.css");
+
+/* ╔════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                           Plugins                                              ║ */
+/* ╠════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ ⚠️ Do not comment out these lines! By disabling the theme can not work correctly.              ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+@import url("https://nates-world-projects.github.io/Native/Modules/Plugins/betterdiscord.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Plugins/goosemod.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Plugins/powercord.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Plugins/vizality.css");
 
 /* ╔════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║                                            Remove                                              ║ */
@@ -277,3 +318,14 @@
 
 @import url("https://nates-world-projects.github.io/Native/Modules/Splash/Web/Discord/splash.css");
 @import url("https://nates-world-projects.github.io/Native/Modules/Splash/App/Discord/splash.css");
+
+/* ╔════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                           Styles                                               ║ */
+/* ╠════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ ⚠️ Do not comment out these lines! By disabling the theme can not work correctly.              ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Styles/Flat/flat.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Styles/Glassmorphism/glassmorphism.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Styles/Neumorphism/neumorphism.css"); */
+/* @import url("https://nates-world-projects.github.io/Native/Modules/Styles/Skeuomophism/skeuomophism.css"); */
