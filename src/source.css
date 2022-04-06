@@ -179,7 +179,6 @@
 /* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/channel-names.css"); */
 @import url("https://nates-world-projects.github.io/Native/Modules/Addons/codeblock-icons.css");
 @import url("https://nates-world-projects.github.io/Native/Modules/Addons/contextmenu-icons.css");
-@import url("https://nates-world-projects.github.io/Native/Modules/Addons/dash2space.css");
 @import url("https://nates-world-projects.github.io/Native/Modules/Addons/discolored.css");
 /* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/events-grid.css"); */
 /* @import url("https://nates-world-projects.github.io/Native/Modules/Addons/friend-banners.css"); */
@@ -262,7 +261,7 @@
 /* ║ ⚠️ Do not comment out these lines! By disabling the theme can not work correctly.              ║ */
 /* ╚════════════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-/* @import url("https://nates-world-projects.github.io/Native/Modules/Fonts/normal.css"); */
+@import url("https://nates-world-projects.github.io/Native/Modules/Fonts/source.css");
 
 /* ╔════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
 /* ║                                         Modification                                           ║ */
