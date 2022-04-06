@@ -1,0 +1,12 @@
+/* ╔════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║                                           Clients                                              ║ */
+/* ╠════════════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ ⚠️ Do not comment out these lines! By disabling the theme can not work correctly.              ║ */
+/* ╚════════════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+@import url("https://nates-world-projects.github.io/Native/Modules/Splash/Client/android.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Splash/Client/iphone.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Splash/Client/linux.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Splash/Client/mac.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Splash/Client/web.css");
+@import url("https://nates-world-projects.github.io/Native/Modules/Splash/Client/windows.css");
